@@ -23,10 +23,12 @@ declare module 'react-icons/fa' {
   declare export class Fa500px extends React$Component<IconBaseProps> {}
   declare export class FaAccessibleIcon extends React$Component<IconBaseProps> {}
   declare export class FaAccusoft extends React$Component<IconBaseProps> {}
+  declare export class FaAcquisitionsIncorporated extends React$Component<IconBaseProps> {}
   declare export class FaAdn extends React$Component<IconBaseProps> {}
   declare export class FaAdversal extends React$Component<IconBaseProps> {}
   declare export class FaAffiliatetheme extends React$Component<IconBaseProps> {}
   declare export class FaAlgolia extends React$Component<IconBaseProps> {}
+  declare export class FaAlipay extends React$Component<IconBaseProps> {}
   declare export class FaAmazonPay extends React$Component<IconBaseProps> {}
   declare export class FaAmazon extends React$Component<IconBaseProps> {}
   declare export class FaAmilia extends React$Component<IconBaseProps> {}
@@ -93,7 +95,9 @@ declare module 'react-icons/fa' {
   declare export class FaCreativeCommonsSamplingPlus extends React$Component<IconBaseProps> {}
   declare export class FaCreativeCommonsSampling extends React$Component<IconBaseProps> {}
   declare export class FaCreativeCommonsShare extends React$Component<IconBaseProps> {}
+  declare export class FaCreativeCommonsZero extends React$Component<IconBaseProps> {}
   declare export class FaCreativeCommons extends React$Component<IconBaseProps> {}
+  declare export class FaCriticalRole extends React$Component<IconBaseProps> {}
   declare export class FaCss3Alt extends React$Component<IconBaseProps> {}
   declare export class FaCss3 extends React$Component<IconBaseProps> {}
   declare export class FaCuttlefish extends React$Component<IconBaseProps> {}
@@ -102,6 +106,7 @@ declare module 'react-icons/fa' {
   declare export class FaDelicious extends React$Component<IconBaseProps> {}
   declare export class FaDeploydog extends React$Component<IconBaseProps> {}
   declare export class FaDeskpro extends React$Component<IconBaseProps> {}
+  declare export class FaDev extends React$Component<IconBaseProps> {}
   declare export class FaDeviantart extends React$Component<IconBaseProps> {}
   declare export class FaDigg extends React$Component<IconBaseProps> {}
   declare export class FaDigitalOcean extends React$Component<IconBaseProps> {}
@@ -119,6 +124,7 @@ declare module 'react-icons/fa' {
   declare export class FaEbay extends React$Component<IconBaseProps> {}
   declare export class FaEdge extends React$Component<IconBaseProps> {}
   declare export class FaElementor extends React$Component<IconBaseProps> {}
+  declare export class FaEllo extends React$Component<IconBaseProps> {}
   declare export class FaEmber extends React$Component<IconBaseProps> {}
   declare export class FaEmpire extends React$Component<IconBaseProps> {}
   declare export class FaEnvira extends React$Component<IconBaseProps> {}
@@ -130,6 +136,7 @@ declare module 'react-icons/fa' {
   declare export class FaFacebookMessenger extends React$Component<IconBaseProps> {}
   declare export class FaFacebookSquare extends React$Component<IconBaseProps> {}
   declare export class FaFacebook extends React$Component<IconBaseProps> {}
+  declare export class FaFantasyFlightGames extends React$Component<IconBaseProps> {}
   declare export class FaFirefox extends React$Component<IconBaseProps> {}
   declare export class FaFirstOrderAlt extends React$Component<IconBaseProps> {}
   declare export class FaFirstOrder extends React$Component<IconBaseProps> {}
@@ -182,9 +189,11 @@ declare module 'react-icons/fa' {
   declare export class FaGulp extends React$Component<IconBaseProps> {}
   declare export class FaHackerNewsSquare extends React$Component<IconBaseProps> {}
   declare export class FaHackerNews extends React$Component<IconBaseProps> {}
+  declare export class FaHackerrank extends React$Component<IconBaseProps> {}
   declare export class FaHips extends React$Component<IconBaseProps> {}
   declare export class FaHireAHelper extends React$Component<IconBaseProps> {}
   declare export class FaHooli extends React$Component<IconBaseProps> {}
+  declare export class FaHornbill extends React$Component<IconBaseProps> {}
   declare export class FaHotjar extends React$Component<IconBaseProps> {}
   declare export class FaHouzz extends React$Component<IconBaseProps> {}
   declare export class FaHtml5 extends React$Component<IconBaseProps> {}
@@ -203,6 +212,7 @@ declare module 'react-icons/fa' {
   declare export class FaJsSquare extends React$Component<IconBaseProps> {}
   declare export class FaJs extends React$Component<IconBaseProps> {}
   declare export class FaJsfiddle extends React$Component<IconBaseProps> {}
+  declare export class FaKaggle extends React$Component<IconBaseProps> {}
   declare export class FaKeybase extends React$Component<IconBaseProps> {}
   declare export class FaKeycdn extends React$Component<IconBaseProps> {}
   declare export class FaKickstarterK extends React$Component<IconBaseProps> {}
@@ -220,7 +230,9 @@ declare module 'react-icons/fa' {
   declare export class FaLinux extends React$Component<IconBaseProps> {}
   declare export class FaLyft extends React$Component<IconBaseProps> {}
   declare export class FaMagento extends React$Component<IconBaseProps> {}
+  declare export class FaMailchimp extends React$Component<IconBaseProps> {}
   declare export class FaMandalorian extends React$Component<IconBaseProps> {}
+  declare export class FaMarkdown extends React$Component<IconBaseProps> {}
   declare export class FaMastodon extends React$Component<IconBaseProps> {}
   declare export class FaMaxcdn extends React$Component<IconBaseProps> {}
   declare export class FaMedapps extends React$Component<IconBaseProps> {}
@@ -228,6 +240,7 @@ declare module 'react-icons/fa' {
   declare export class FaMedium extends React$Component<IconBaseProps> {}
   declare export class FaMedrt extends React$Component<IconBaseProps> {}
   declare export class FaMeetup extends React$Component<IconBaseProps> {}
+  declare export class FaMegaport extends React$Component<IconBaseProps> {}
   declare export class FaMicrosoft extends React$Component<IconBaseProps> {}
   declare export class FaMix extends React$Component<IconBaseProps> {}
   declare export class FaMixcloud extends React$Component<IconBaseProps> {}
@@ -235,6 +248,8 @@ declare module 'react-icons/fa' {
   declare export class FaModx extends React$Component<IconBaseProps> {}
   declare export class FaMonero extends React$Component<IconBaseProps> {}
   declare export class FaNapster extends React$Component<IconBaseProps> {}
+  declare export class FaNeos extends React$Component<IconBaseProps> {}
+  declare export class FaNimblr extends React$Component<IconBaseProps> {}
   declare export class FaNintendoSwitch extends React$Component<IconBaseProps> {}
   declare export class FaNodeJs extends React$Component<IconBaseProps> {}
   declare export class FaNode extends React$Component<IconBaseProps> {}
@@ -254,6 +269,7 @@ declare module 'react-icons/fa' {
   declare export class FaPalfed extends React$Component<IconBaseProps> {}
   declare export class FaPatreon extends React$Component<IconBaseProps> {}
   declare export class FaPaypal extends React$Component<IconBaseProps> {}
+  declare export class FaPennyArcade extends React$Component<IconBaseProps> {}
   declare export class FaPeriscope extends React$Component<IconBaseProps> {}
   declare export class FaPhabricator extends React$Component<IconBaseProps> {}
   declare export class FaPhoenixFramework extends React$Component<IconBaseProps> {}
@@ -288,6 +304,7 @@ declare module 'react-icons/fa' {
   declare export class FaReplyd extends React$Component<IconBaseProps> {}
   declare export class FaResearchgate extends React$Component<IconBaseProps> {}
   declare export class FaResolving extends React$Component<IconBaseProps> {}
+  declare export class FaRev extends React$Component<IconBaseProps> {}
   declare export class FaRocketchat extends React$Component<IconBaseProps> {}
   declare export class FaRockrms extends React$Component<IconBaseProps> {}
   declare export class FaSafari extends React$Component<IconBaseProps> {}
@@ -299,6 +316,7 @@ declare module 'react-icons/fa' {
   declare export class FaSellsy extends React$Component<IconBaseProps> {}
   declare export class FaServicestack extends React$Component<IconBaseProps> {}
   declare export class FaShirtsinbulk extends React$Component<IconBaseProps> {}
+  declare export class FaShopware extends React$Component<IconBaseProps> {}
   declare export class FaSimplybuilt extends React$Component<IconBaseProps> {}
   declare export class FaSistrix extends React$Component<IconBaseProps> {}
   declare export class FaSith extends React$Component<IconBaseProps> {}
@@ -313,6 +331,7 @@ declare module 'react-icons/fa' {
   declare export class FaSoundcloud extends React$Component<IconBaseProps> {}
   declare export class FaSpeakap extends React$Component<IconBaseProps> {}
   declare export class FaSpotify extends React$Component<IconBaseProps> {}
+  declare export class FaSquarespace extends React$Component<IconBaseProps> {}
   declare export class FaStackExchange extends React$Component<IconBaseProps> {}
   declare export class FaStackOverflow extends React$Component<IconBaseProps> {}
   declare export class FaStaylinked extends React$Component<IconBaseProps> {}
@@ -332,6 +351,8 @@ declare module 'react-icons/fa' {
   declare export class FaTelegramPlane extends React$Component<IconBaseProps> {}
   declare export class FaTelegram extends React$Component<IconBaseProps> {}
   declare export class FaTencentWeibo extends React$Component<IconBaseProps> {}
+  declare export class FaTheRedYeti extends React$Component<IconBaseProps> {}
+  declare export class FaThemeco extends React$Component<IconBaseProps> {}
   declare export class FaThemeisle extends React$Component<IconBaseProps> {}
   declare export class FaTradeFederation extends React$Component<IconBaseProps> {}
   declare export class FaTrello extends React$Component<IconBaseProps> {}
@@ -360,6 +381,7 @@ declare module 'react-icons/fa' {
   declare export class FaVk extends React$Component<IconBaseProps> {}
   declare export class FaVnv extends React$Component<IconBaseProps> {}
   declare export class FaVuejs extends React$Component<IconBaseProps> {}
+  declare export class FaWeebly extends React$Component<IconBaseProps> {}
   declare export class FaWeibo extends React$Component<IconBaseProps> {}
   declare export class FaWeixin extends React$Component<IconBaseProps> {}
   declare export class FaWhatsappSquare extends React$Component<IconBaseProps> {}
@@ -367,6 +389,8 @@ declare module 'react-icons/fa' {
   declare export class FaWhmcs extends React$Component<IconBaseProps> {}
   declare export class FaWikipediaW extends React$Component<IconBaseProps> {}
   declare export class FaWindows extends React$Component<IconBaseProps> {}
+  declare export class FaWix extends React$Component<IconBaseProps> {}
+  declare export class FaWizardsOfTheCoast extends React$Component<IconBaseProps> {}
   declare export class FaWolfPackBattalion extends React$Component<IconBaseProps> {}
   declare export class FaWordpressSimple extends React$Component<IconBaseProps> {}
   declare export class FaWordpress extends React$Component<IconBaseProps> {}
@@ -384,9 +408,13 @@ declare module 'react-icons/fa' {
   declare export class FaYoast extends React$Component<IconBaseProps> {}
   declare export class FaYoutubeSquare extends React$Component<IconBaseProps> {}
   declare export class FaYoutube extends React$Component<IconBaseProps> {}
+  declare export class FaZhihu extends React$Component<IconBaseProps> {}
+  declare export class FaAbacus extends React$Component<IconBaseProps> {}
+  declare export class FaAd extends React$Component<IconBaseProps> {}
   declare export class FaAddressBook extends React$Component<IconBaseProps> {}
   declare export class FaAddressCard extends React$Component<IconBaseProps> {}
   declare export class FaAdjust extends React$Component<IconBaseProps> {}
+  declare export class FaAirFreshener extends React$Component<IconBaseProps> {}
   declare export class FaAlignCenter extends React$Component<IconBaseProps> {}
   declare export class FaAlignJustify extends React$Component<IconBaseProps> {}
   declare export class FaAlignLeft extends React$Component<IconBaseProps> {}
@@ -403,7 +431,11 @@ declare module 'react-icons/fa' {
   declare export class FaAngleLeft extends React$Component<IconBaseProps> {}
   declare export class FaAngleRight extends React$Component<IconBaseProps> {}
   declare export class FaAngleUp extends React$Component<IconBaseProps> {}
+  declare export class FaAngry extends React$Component<IconBaseProps> {}
+  declare export class FaAnkh extends React$Component<IconBaseProps> {}
+  declare export class FaAppleAlt extends React$Component<IconBaseProps> {}
   declare export class FaArchive extends React$Component<IconBaseProps> {}
+  declare export class FaArchway extends React$Component<IconBaseProps> {}
   declare export class FaArrowAltCircleDown extends React$Component<IconBaseProps> {}
   declare export class FaArrowAltCircleLeft extends React$Component<IconBaseProps> {}
   declare export class FaArrowAltCircleRight extends React$Component<IconBaseProps> {}
@@ -422,7 +454,11 @@ declare module 'react-icons/fa' {
   declare export class FaAssistiveListeningSystems extends React$Component<IconBaseProps> {}
   declare export class FaAsterisk extends React$Component<IconBaseProps> {}
   declare export class FaAt extends React$Component<IconBaseProps> {}
+  declare export class FaAtlas extends React$Component<IconBaseProps> {}
+  declare export class FaAtom extends React$Component<IconBaseProps> {}
   declare export class FaAudioDescription extends React$Component<IconBaseProps> {}
+  declare export class FaAward extends React$Component<IconBaseProps> {}
+  declare export class FaBackspace extends React$Component<IconBaseProps> {}
   declare export class FaBackward extends React$Component<IconBaseProps> {}
   declare export class FaBalanceScale extends React$Component<IconBaseProps> {}
   declare export class FaBan extends React$Component<IconBaseProps> {}
@@ -441,15 +477,22 @@ declare module 'react-icons/fa' {
   declare export class FaBeer extends React$Component<IconBaseProps> {}
   declare export class FaBellSlash extends React$Component<IconBaseProps> {}
   declare export class FaBell extends React$Component<IconBaseProps> {}
+  declare export class FaBezierCurve extends React$Component<IconBaseProps> {}
+  declare export class FaBible extends React$Component<IconBaseProps> {}
   declare export class FaBicycle extends React$Component<IconBaseProps> {}
   declare export class FaBinoculars extends React$Component<IconBaseProps> {}
   declare export class FaBirthdayCake extends React$Component<IconBaseProps> {}
+  declare export class FaBlenderPhone extends React$Component<IconBaseProps> {}
   declare export class FaBlender extends React$Component<IconBaseProps> {}
   declare export class FaBlind extends React$Component<IconBaseProps> {}
   declare export class FaBold extends React$Component<IconBaseProps> {}
   declare export class FaBolt extends React$Component<IconBaseProps> {}
   declare export class FaBomb extends React$Component<IconBaseProps> {}
+  declare export class FaBone extends React$Component<IconBaseProps> {}
+  declare export class FaBong extends React$Component<IconBaseProps> {}
+  declare export class FaBookDead extends React$Component<IconBaseProps> {}
   declare export class FaBookOpen extends React$Component<IconBaseProps> {}
+  declare export class FaBookReader extends React$Component<IconBaseProps> {}
   declare export class FaBook extends React$Component<IconBaseProps> {}
   declare export class FaBookmark extends React$Component<IconBaseProps> {}
   declare export class FaBowlingBall extends React$Component<IconBaseProps> {}
@@ -457,16 +500,21 @@ declare module 'react-icons/fa' {
   declare export class FaBox extends React$Component<IconBaseProps> {}
   declare export class FaBoxes extends React$Component<IconBaseProps> {}
   declare export class FaBraille extends React$Component<IconBaseProps> {}
+  declare export class FaBrain extends React$Component<IconBaseProps> {}
   declare export class FaBriefcaseMedical extends React$Component<IconBaseProps> {}
   declare export class FaBriefcase extends React$Component<IconBaseProps> {}
   declare export class FaBroadcastTower extends React$Component<IconBaseProps> {}
   declare export class FaBroom extends React$Component<IconBaseProps> {}
+  declare export class FaBrush extends React$Component<IconBaseProps> {}
   declare export class FaBug extends React$Component<IconBaseProps> {}
   declare export class FaBuilding extends React$Component<IconBaseProps> {}
   declare export class FaBullhorn extends React$Component<IconBaseProps> {}
   declare export class FaBullseye extends React$Component<IconBaseProps> {}
   declare export class FaBurn extends React$Component<IconBaseProps> {}
+  declare export class FaBusAlt extends React$Component<IconBaseProps> {}
   declare export class FaBus extends React$Component<IconBaseProps> {}
+  declare export class FaBusinessTime extends React$Component<IconBaseProps> {}
+  declare export class FaCalculatorAlt extends React$Component<IconBaseProps> {}
   declare export class FaCalculator extends React$Component<IconBaseProps> {}
   declare export class FaCalendarAlt extends React$Component<IconBaseProps> {}
   declare export class FaCalendarCheck extends React$Component<IconBaseProps> {}
@@ -476,7 +524,13 @@ declare module 'react-icons/fa' {
   declare export class FaCalendar extends React$Component<IconBaseProps> {}
   declare export class FaCameraRetro extends React$Component<IconBaseProps> {}
   declare export class FaCamera extends React$Component<IconBaseProps> {}
+  declare export class FaCampground extends React$Component<IconBaseProps> {}
+  declare export class FaCannabis extends React$Component<IconBaseProps> {}
   declare export class FaCapsules extends React$Component<IconBaseProps> {}
+  declare export class FaCarAlt extends React$Component<IconBaseProps> {}
+  declare export class FaCarBattery extends React$Component<IconBaseProps> {}
+  declare export class FaCarCrash extends React$Component<IconBaseProps> {}
+  declare export class FaCarSide extends React$Component<IconBaseProps> {}
   declare export class FaCar extends React$Component<IconBaseProps> {}
   declare export class FaCaretDown extends React$Component<IconBaseProps> {}
   declare export class FaCaretLeft extends React$Component<IconBaseProps> {}
@@ -488,14 +542,18 @@ declare module 'react-icons/fa' {
   declare export class FaCaretUp extends React$Component<IconBaseProps> {}
   declare export class FaCartArrowDown extends React$Component<IconBaseProps> {}
   declare export class FaCartPlus extends React$Component<IconBaseProps> {}
+  declare export class FaCat extends React$Component<IconBaseProps> {}
   declare export class FaCertificate extends React$Component<IconBaseProps> {}
+  declare export class FaChair extends React$Component<IconBaseProps> {}
   declare export class FaChalkboardTeacher extends React$Component<IconBaseProps> {}
   declare export class FaChalkboard extends React$Component<IconBaseProps> {}
+  declare export class FaChargingStation extends React$Component<IconBaseProps> {}
   declare export class FaChartArea extends React$Component<IconBaseProps> {}
   declare export class FaChartBar extends React$Component<IconBaseProps> {}
   declare export class FaChartLine extends React$Component<IconBaseProps> {}
   declare export class FaChartPie extends React$Component<IconBaseProps> {}
   declare export class FaCheckCircle extends React$Component<IconBaseProps> {}
+  declare export class FaCheckDouble extends React$Component<IconBaseProps> {}
   declare export class FaCheckSquare extends React$Component<IconBaseProps> {}
   declare export class FaCheck extends React$Component<IconBaseProps> {}
   declare export class FaChessBishop extends React$Component<IconBaseProps> {}
@@ -518,6 +576,7 @@ declare module 'react-icons/fa' {
   declare export class FaChurch extends React$Component<IconBaseProps> {}
   declare export class FaCircleNotch extends React$Component<IconBaseProps> {}
   declare export class FaCircle extends React$Component<IconBaseProps> {}
+  declare export class FaCity extends React$Component<IconBaseProps> {}
   declare export class FaClipboardCheck extends React$Component<IconBaseProps> {}
   declare export class FaClipboardList extends React$Component<IconBaseProps> {}
   declare export class FaClipboard extends React$Component<IconBaseProps> {}
@@ -525,8 +584,11 @@ declare module 'react-icons/fa' {
   declare export class FaClone extends React$Component<IconBaseProps> {}
   declare export class FaClosedCaptioning extends React$Component<IconBaseProps> {}
   declare export class FaCloudDownloadAlt extends React$Component<IconBaseProps> {}
+  declare export class FaCloudMoon extends React$Component<IconBaseProps> {}
+  declare export class FaCloudSun extends React$Component<IconBaseProps> {}
   declare export class FaCloudUploadAlt extends React$Component<IconBaseProps> {}
   declare export class FaCloud extends React$Component<IconBaseProps> {}
+  declare export class FaCocktail extends React$Component<IconBaseProps> {}
   declare export class FaCodeBranch extends React$Component<IconBaseProps> {}
   declare export class FaCode extends React$Component<IconBaseProps> {}
   declare export class FaCoffee extends React$Component<IconBaseProps> {}
@@ -535,18 +597,25 @@ declare module 'react-icons/fa' {
   declare export class FaCoins extends React$Component<IconBaseProps> {}
   declare export class FaColumns extends React$Component<IconBaseProps> {}
   declare export class FaCommentAlt extends React$Component<IconBaseProps> {}
+  declare export class FaCommentDollar extends React$Component<IconBaseProps> {}
   declare export class FaCommentDots extends React$Component<IconBaseProps> {}
   declare export class FaCommentSlash extends React$Component<IconBaseProps> {}
   declare export class FaComment extends React$Component<IconBaseProps> {}
+  declare export class FaCommentsDollar extends React$Component<IconBaseProps> {}
   declare export class FaComments extends React$Component<IconBaseProps> {}
   declare export class FaCompactDisc extends React$Component<IconBaseProps> {}
   declare export class FaCompass extends React$Component<IconBaseProps> {}
   declare export class FaCompress extends React$Component<IconBaseProps> {}
+  declare export class FaConciergeBell extends React$Component<IconBaseProps> {}
+  declare export class FaCookieBite extends React$Component<IconBaseProps> {}
+  declare export class FaCookie extends React$Component<IconBaseProps> {}
   declare export class FaCopy extends React$Component<IconBaseProps> {}
   declare export class FaCopyright extends React$Component<IconBaseProps> {}
   declare export class FaCouch extends React$Component<IconBaseProps> {}
   declare export class FaCreditCard extends React$Component<IconBaseProps> {}
+  declare export class FaCropAlt extends React$Component<IconBaseProps> {}
   declare export class FaCrop extends React$Component<IconBaseProps> {}
+  declare export class FaCross extends React$Component<IconBaseProps> {}
   declare export class FaCrosshairs extends React$Component<IconBaseProps> {}
   declare export class FaCrow extends React$Component<IconBaseProps> {}
   declare export class FaCrown extends React$Component<IconBaseProps> {}
@@ -556,7 +625,10 @@ declare module 'react-icons/fa' {
   declare export class FaDatabase extends React$Component<IconBaseProps> {}
   declare export class FaDeaf extends React$Component<IconBaseProps> {}
   declare export class FaDesktop extends React$Component<IconBaseProps> {}
+  declare export class FaDharmachakra extends React$Component<IconBaseProps> {}
   declare export class FaDiagnoses extends React$Component<IconBaseProps> {}
+  declare export class FaDiceD20 extends React$Component<IconBaseProps> {}
+  declare export class FaDiceD6 extends React$Component<IconBaseProps> {}
   declare export class FaDiceFive extends React$Component<IconBaseProps> {}
   declare export class FaDiceFour extends React$Component<IconBaseProps> {}
   declare export class FaDiceOne extends React$Component<IconBaseProps> {}
@@ -564,8 +636,12 @@ declare module 'react-icons/fa' {
   declare export class FaDiceThree extends React$Component<IconBaseProps> {}
   declare export class FaDiceTwo extends React$Component<IconBaseProps> {}
   declare export class FaDice extends React$Component<IconBaseProps> {}
+  declare export class FaDigitalTachograph extends React$Component<IconBaseProps> {}
+  declare export class FaDirections extends React$Component<IconBaseProps> {}
   declare export class FaDivide extends React$Component<IconBaseProps> {}
+  declare export class FaDizzy extends React$Component<IconBaseProps> {}
   declare export class FaDna extends React$Component<IconBaseProps> {}
+  declare export class FaDog extends React$Component<IconBaseProps> {}
   declare export class FaDollarSign extends React$Component<IconBaseProps> {}
   declare export class FaDollyFlatbed extends React$Component<IconBaseProps> {}
   declare export class FaDolly extends React$Component<IconBaseProps> {}
@@ -575,11 +651,20 @@ declare module 'react-icons/fa' {
   declare export class FaDotCircle extends React$Component<IconBaseProps> {}
   declare export class FaDove extends React$Component<IconBaseProps> {}
   declare export class FaDownload extends React$Component<IconBaseProps> {}
+  declare export class FaDraftingCompass extends React$Component<IconBaseProps> {}
+  declare export class FaDragon extends React$Component<IconBaseProps> {}
+  declare export class FaDrawPolygon extends React$Component<IconBaseProps> {}
+  declare export class FaDrumSteelpan extends React$Component<IconBaseProps> {}
+  declare export class FaDrum extends React$Component<IconBaseProps> {}
+  declare export class FaDrumstickBite extends React$Component<IconBaseProps> {}
   declare export class FaDumbbell extends React$Component<IconBaseProps> {}
+  declare export class FaDungeon extends React$Component<IconBaseProps> {}
   declare export class FaEdit extends React$Component<IconBaseProps> {}
   declare export class FaEject extends React$Component<IconBaseProps> {}
   declare export class FaEllipsisH extends React$Component<IconBaseProps> {}
   declare export class FaEllipsisV extends React$Component<IconBaseProps> {}
+  declare export class FaEmptySet extends React$Component<IconBaseProps> {}
+  declare export class FaEnvelopeOpenText extends React$Component<IconBaseProps> {}
   declare export class FaEnvelopeOpen extends React$Component<IconBaseProps> {}
   declare export class FaEnvelopeSquare extends React$Component<IconBaseProps> {}
   declare export class FaEnvelope extends React$Component<IconBaseProps> {}
@@ -600,6 +685,7 @@ declare module 'react-icons/fa' {
   declare export class FaFastBackward extends React$Component<IconBaseProps> {}
   declare export class FaFastForward extends React$Component<IconBaseProps> {}
   declare export class FaFax extends React$Component<IconBaseProps> {}
+  declare export class FaFeatherAlt extends React$Component<IconBaseProps> {}
   declare export class FaFeather extends React$Component<IconBaseProps> {}
   declare export class FaFemale extends React$Component<IconBaseProps> {}
   declare export class FaFighterJet extends React$Component<IconBaseProps> {}
@@ -607,45 +693,90 @@ declare module 'react-icons/fa' {
   declare export class FaFileArchive extends React$Component<IconBaseProps> {}
   declare export class FaFileAudio extends React$Component<IconBaseProps> {}
   declare export class FaFileCode extends React$Component<IconBaseProps> {}
+  declare export class FaFileContract extends React$Component<IconBaseProps> {}
+  declare export class FaFileCsv extends React$Component<IconBaseProps> {}
+  declare export class FaFileDownload extends React$Component<IconBaseProps> {}
   declare export class FaFileExcel extends React$Component<IconBaseProps> {}
+  declare export class FaFileExport extends React$Component<IconBaseProps> {}
   declare export class FaFileImage extends React$Component<IconBaseProps> {}
+  declare export class FaFileImport extends React$Component<IconBaseProps> {}
+  declare export class FaFileInvoiceDollar extends React$Component<IconBaseProps> {}
+  declare export class FaFileInvoice extends React$Component<IconBaseProps> {}
   declare export class FaFileMedicalAlt extends React$Component<IconBaseProps> {}
   declare export class FaFileMedical extends React$Component<IconBaseProps> {}
   declare export class FaFilePdf extends React$Component<IconBaseProps> {}
   declare export class FaFilePowerpoint extends React$Component<IconBaseProps> {}
+  declare export class FaFilePrescription extends React$Component<IconBaseProps> {}
+  declare export class FaFileSignature extends React$Component<IconBaseProps> {}
+  declare export class FaFileUpload extends React$Component<IconBaseProps> {}
   declare export class FaFileVideo extends React$Component<IconBaseProps> {}
   declare export class FaFileWord extends React$Component<IconBaseProps> {}
   declare export class FaFile extends React$Component<IconBaseProps> {}
+  declare export class FaFillDrip extends React$Component<IconBaseProps> {}
+  declare export class FaFill extends React$Component<IconBaseProps> {}
   declare export class FaFilm extends React$Component<IconBaseProps> {}
   declare export class FaFilter extends React$Component<IconBaseProps> {}
+  declare export class FaFingerprint extends React$Component<IconBaseProps> {}
   declare export class FaFireExtinguisher extends React$Component<IconBaseProps> {}
   declare export class FaFire extends React$Component<IconBaseProps> {}
   declare export class FaFirstAid extends React$Component<IconBaseProps> {}
+  declare export class FaFish extends React$Component<IconBaseProps> {}
+  declare export class FaFistRaised extends React$Component<IconBaseProps> {}
   declare export class FaFlagCheckered extends React$Component<IconBaseProps> {}
   declare export class FaFlag extends React$Component<IconBaseProps> {}
   declare export class FaFlask extends React$Component<IconBaseProps> {}
+  declare export class FaFlushed extends React$Component<IconBaseProps> {}
+  declare export class FaFolderMinus extends React$Component<IconBaseProps> {}
   declare export class FaFolderOpen extends React$Component<IconBaseProps> {}
+  declare export class FaFolderPlus extends React$Component<IconBaseProps> {}
   declare export class FaFolder extends React$Component<IconBaseProps> {}
   declare export class FaFont extends React$Component<IconBaseProps> {}
   declare export class FaFootballBall extends React$Component<IconBaseProps> {}
   declare export class FaForward extends React$Component<IconBaseProps> {}
   declare export class FaFrog extends React$Component<IconBaseProps> {}
+  declare export class FaFrownOpen extends React$Component<IconBaseProps> {}
   declare export class FaFrown extends React$Component<IconBaseProps> {}
+  declare export class FaFunction extends React$Component<IconBaseProps> {}
+  declare export class FaFunnelDollar extends React$Component<IconBaseProps> {}
   declare export class FaFutbol extends React$Component<IconBaseProps> {}
   declare export class FaGamepad extends React$Component<IconBaseProps> {}
   declare export class FaGasPump extends React$Component<IconBaseProps> {}
   declare export class FaGavel extends React$Component<IconBaseProps> {}
   declare export class FaGem extends React$Component<IconBaseProps> {}
   declare export class FaGenderless extends React$Component<IconBaseProps> {}
+  declare export class FaGhost extends React$Component<IconBaseProps> {}
   declare export class FaGift extends React$Component<IconBaseProps> {}
+  declare export class FaGlassMartiniAlt extends React$Component<IconBaseProps> {}
   declare export class FaGlassMartini extends React$Component<IconBaseProps> {}
   declare export class FaGlasses extends React$Component<IconBaseProps> {}
+  declare export class FaGlobeAfrica extends React$Component<IconBaseProps> {}
+  declare export class FaGlobeAmericas extends React$Component<IconBaseProps> {}
+  declare export class FaGlobeAsia extends React$Component<IconBaseProps> {}
   declare export class FaGlobe extends React$Component<IconBaseProps> {}
   declare export class FaGolfBall extends React$Component<IconBaseProps> {}
+  declare export class FaGopuram extends React$Component<IconBaseProps> {}
   declare export class FaGraduationCap extends React$Component<IconBaseProps> {}
   declare export class FaGreaterThanEqual extends React$Component<IconBaseProps> {}
   declare export class FaGreaterThan extends React$Component<IconBaseProps> {}
+  declare export class FaGrimace extends React$Component<IconBaseProps> {}
+  declare export class FaGrinAlt extends React$Component<IconBaseProps> {}
+  declare export class FaGrinBeamSweat extends React$Component<IconBaseProps> {}
+  declare export class FaGrinBeam extends React$Component<IconBaseProps> {}
+  declare export class FaGrinHearts extends React$Component<IconBaseProps> {}
+  declare export class FaGrinSquintTears extends React$Component<IconBaseProps> {}
+  declare export class FaGrinSquint extends React$Component<IconBaseProps> {}
+  declare export class FaGrinStars extends React$Component<IconBaseProps> {}
+  declare export class FaGrinTears extends React$Component<IconBaseProps> {}
+  declare export class FaGrinTongueSquint extends React$Component<IconBaseProps> {}
+  declare export class FaGrinTongueWink extends React$Component<IconBaseProps> {}
+  declare export class FaGrinTongue extends React$Component<IconBaseProps> {}
+  declare export class FaGrinWink extends React$Component<IconBaseProps> {}
+  declare export class FaGrin extends React$Component<IconBaseProps> {}
+  declare export class FaGripHorizontal extends React$Component<IconBaseProps> {}
+  declare export class FaGripVertical extends React$Component<IconBaseProps> {}
   declare export class FaHSquare extends React$Component<IconBaseProps> {}
+  declare export class FaHammer extends React$Component<IconBaseProps> {}
+  declare export class FaHamsa extends React$Component<IconBaseProps> {}
   declare export class FaHandHoldingHeart extends React$Component<IconBaseProps> {}
   declare export class FaHandHoldingUsd extends React$Component<IconBaseProps> {}
   declare export class FaHandHolding extends React$Component<IconBaseProps> {}
@@ -663,23 +794,36 @@ declare module 'react-icons/fa' {
   declare export class FaHandsHelping extends React$Component<IconBaseProps> {}
   declare export class FaHands extends React$Component<IconBaseProps> {}
   declare export class FaHandshake extends React$Component<IconBaseProps> {}
+  declare export class FaHanukiah extends React$Component<IconBaseProps> {}
   declare export class FaHashtag extends React$Component<IconBaseProps> {}
+  declare export class FaHatWizard extends React$Component<IconBaseProps> {}
+  declare export class FaHaykal extends React$Component<IconBaseProps> {}
   declare export class FaHdd extends React$Component<IconBaseProps> {}
   declare export class FaHeading extends React$Component<IconBaseProps> {}
+  declare export class FaHeadphonesAlt extends React$Component<IconBaseProps> {}
   declare export class FaHeadphones extends React$Component<IconBaseProps> {}
+  declare export class FaHeadset extends React$Component<IconBaseProps> {}
   declare export class FaHeart extends React$Component<IconBaseProps> {}
   declare export class FaHeartbeat extends React$Component<IconBaseProps> {}
   declare export class FaHelicopter extends React$Component<IconBaseProps> {}
+  declare export class FaHighlighter extends React$Component<IconBaseProps> {}
+  declare export class FaHiking extends React$Component<IconBaseProps> {}
+  declare export class FaHippo extends React$Component<IconBaseProps> {}
   declare export class FaHistory extends React$Component<IconBaseProps> {}
   declare export class FaHockeyPuck extends React$Component<IconBaseProps> {}
   declare export class FaHome extends React$Component<IconBaseProps> {}
+  declare export class FaHorse extends React$Component<IconBaseProps> {}
   declare export class FaHospitalAlt extends React$Component<IconBaseProps> {}
   declare export class FaHospitalSymbol extends React$Component<IconBaseProps> {}
   declare export class FaHospital extends React$Component<IconBaseProps> {}
+  declare export class FaHotTub extends React$Component<IconBaseProps> {}
+  declare export class FaHotel extends React$Component<IconBaseProps> {}
   declare export class FaHourglassEnd extends React$Component<IconBaseProps> {}
   declare export class FaHourglassHalf extends React$Component<IconBaseProps> {}
   declare export class FaHourglassStart extends React$Component<IconBaseProps> {}
   declare export class FaHourglass extends React$Component<IconBaseProps> {}
+  declare export class FaHouseDamage extends React$Component<IconBaseProps> {}
+  declare export class FaHryvnia extends React$Component<IconBaseProps> {}
   declare export class FaICursor extends React$Component<IconBaseProps> {}
   declare export class FaIdBadge extends React$Component<IconBaseProps> {}
   declare export class FaIdCardAlt extends React$Component<IconBaseProps> {}
@@ -692,12 +836,30 @@ declare module 'react-icons/fa' {
   declare export class FaInfinity extends React$Component<IconBaseProps> {}
   declare export class FaInfoCircle extends React$Component<IconBaseProps> {}
   declare export class FaInfo extends React$Component<IconBaseProps> {}
+  declare export class FaIntegral extends React$Component<IconBaseProps> {}
+  declare export class FaIntersection extends React$Component<IconBaseProps> {}
   declare export class FaItalic extends React$Component<IconBaseProps> {}
+  declare export class FaJedi extends React$Component<IconBaseProps> {}
+  declare export class FaJoint extends React$Component<IconBaseProps> {}
+  declare export class FaJournalWhills extends React$Component<IconBaseProps> {}
+  declare export class FaKaaba extends React$Component<IconBaseProps> {}
   declare export class FaKey extends React$Component<IconBaseProps> {}
   declare export class FaKeyboard extends React$Component<IconBaseProps> {}
+  declare export class FaKhanda extends React$Component<IconBaseProps> {}
+  declare export class FaKissBeam extends React$Component<IconBaseProps> {}
+  declare export class FaKissWinkHeart extends React$Component<IconBaseProps> {}
+  declare export class FaKiss extends React$Component<IconBaseProps> {}
   declare export class FaKiwiBird extends React$Component<IconBaseProps> {}
+  declare export class FaLambda extends React$Component<IconBaseProps> {}
+  declare export class FaLandmark extends React$Component<IconBaseProps> {}
   declare export class FaLanguage extends React$Component<IconBaseProps> {}
+  declare export class FaLaptopCode extends React$Component<IconBaseProps> {}
   declare export class FaLaptop extends React$Component<IconBaseProps> {}
+  declare export class FaLaughBeam extends React$Component<IconBaseProps> {}
+  declare export class FaLaughSquint extends React$Component<IconBaseProps> {}
+  declare export class FaLaughWink extends React$Component<IconBaseProps> {}
+  declare export class FaLaugh extends React$Component<IconBaseProps> {}
+  declare export class FaLayerGroup extends React$Component<IconBaseProps> {}
   declare export class FaLeaf extends React$Component<IconBaseProps> {}
   declare export class FaLemon extends React$Component<IconBaseProps> {}
   declare export class FaLessThanEqual extends React$Component<IconBaseProps> {}
@@ -720,28 +882,39 @@ declare module 'react-icons/fa' {
   declare export class FaLongArrowAltRight extends React$Component<IconBaseProps> {}
   declare export class FaLongArrowAltUp extends React$Component<IconBaseProps> {}
   declare export class FaLowVision extends React$Component<IconBaseProps> {}
+  declare export class FaLuggageCart extends React$Component<IconBaseProps> {}
   declare export class FaMagic extends React$Component<IconBaseProps> {}
   declare export class FaMagnet extends React$Component<IconBaseProps> {}
+  declare export class FaMailBulk extends React$Component<IconBaseProps> {}
   declare export class FaMale extends React$Component<IconBaseProps> {}
+  declare export class FaMapMarkedAlt extends React$Component<IconBaseProps> {}
+  declare export class FaMapMarked extends React$Component<IconBaseProps> {}
   declare export class FaMapMarkerAlt extends React$Component<IconBaseProps> {}
   declare export class FaMapMarker extends React$Component<IconBaseProps> {}
   declare export class FaMapPin extends React$Component<IconBaseProps> {}
   declare export class FaMapSigns extends React$Component<IconBaseProps> {}
   declare export class FaMap extends React$Component<IconBaseProps> {}
+  declare export class FaMarker extends React$Component<IconBaseProps> {}
   declare export class FaMarsDouble extends React$Component<IconBaseProps> {}
   declare export class FaMarsStrokeH extends React$Component<IconBaseProps> {}
   declare export class FaMarsStrokeV extends React$Component<IconBaseProps> {}
   declare export class FaMarsStroke extends React$Component<IconBaseProps> {}
   declare export class FaMars extends React$Component<IconBaseProps> {}
+  declare export class FaMask extends React$Component<IconBaseProps> {}
+  declare export class FaMedal extends React$Component<IconBaseProps> {}
   declare export class FaMedkit extends React$Component<IconBaseProps> {}
+  declare export class FaMehBlank extends React$Component<IconBaseProps> {}
+  declare export class FaMehRollingEyes extends React$Component<IconBaseProps> {}
   declare export class FaMeh extends React$Component<IconBaseProps> {}
   declare export class FaMemory extends React$Component<IconBaseProps> {}
+  declare export class FaMenorah extends React$Component<IconBaseProps> {}
   declare export class FaMercury extends React$Component<IconBaseProps> {}
   declare export class FaMicrochip extends React$Component<IconBaseProps> {}
   declare export class FaMicrophoneAltSlash extends React$Component<IconBaseProps> {}
   declare export class FaMicrophoneAlt extends React$Component<IconBaseProps> {}
   declare export class FaMicrophoneSlash extends React$Component<IconBaseProps> {}
   declare export class FaMicrophone extends React$Component<IconBaseProps> {}
+  declare export class FaMicroscope extends React$Component<IconBaseProps> {}
   declare export class FaMinusCircle extends React$Component<IconBaseProps> {}
   declare export class FaMinusSquare extends React$Component<IconBaseProps> {}
   declare export class FaMinus extends React$Component<IconBaseProps> {}
@@ -753,18 +926,28 @@ declare module 'react-icons/fa' {
   declare export class FaMoneyBill extends React$Component<IconBaseProps> {}
   declare export class FaMoneyCheckAlt extends React$Component<IconBaseProps> {}
   declare export class FaMoneyCheck extends React$Component<IconBaseProps> {}
+  declare export class FaMonument extends React$Component<IconBaseProps> {}
   declare export class FaMoon extends React$Component<IconBaseProps> {}
+  declare export class FaMortarPestle extends React$Component<IconBaseProps> {}
+  declare export class FaMosque extends React$Component<IconBaseProps> {}
   declare export class FaMotorcycle extends React$Component<IconBaseProps> {}
+  declare export class FaMountain extends React$Component<IconBaseProps> {}
   declare export class FaMousePointer extends React$Component<IconBaseProps> {}
   declare export class FaMusic extends React$Component<IconBaseProps> {}
+  declare export class FaNetworkWired extends React$Component<IconBaseProps> {}
   declare export class FaNeuter extends React$Component<IconBaseProps> {}
   declare export class FaNewspaper extends React$Component<IconBaseProps> {}
   declare export class FaNotEqual extends React$Component<IconBaseProps> {}
   declare export class FaNotesMedical extends React$Component<IconBaseProps> {}
   declare export class FaObjectGroup extends React$Component<IconBaseProps> {}
   declare export class FaObjectUngroup extends React$Component<IconBaseProps> {}
+  declare export class FaOilCan extends React$Component<IconBaseProps> {}
+  declare export class FaOm extends React$Component<IconBaseProps> {}
+  declare export class FaOmega extends React$Component<IconBaseProps> {}
+  declare export class FaOtter extends React$Component<IconBaseProps> {}
   declare export class FaOutdent extends React$Component<IconBaseProps> {}
   declare export class FaPaintBrush extends React$Component<IconBaseProps> {}
+  declare export class FaPaintRoller extends React$Component<IconBaseProps> {}
   declare export class FaPalette extends React$Component<IconBaseProps> {}
   declare export class FaPallet extends React$Component<IconBaseProps> {}
   declare export class FaPaperPlane extends React$Component<IconBaseProps> {}
@@ -772,12 +955,20 @@ declare module 'react-icons/fa' {
   declare export class FaParachuteBox extends React$Component<IconBaseProps> {}
   declare export class FaParagraph extends React$Component<IconBaseProps> {}
   declare export class FaParking extends React$Component<IconBaseProps> {}
+  declare export class FaPassport extends React$Component<IconBaseProps> {}
+  declare export class FaPastafarianism extends React$Component<IconBaseProps> {}
   declare export class FaPaste extends React$Component<IconBaseProps> {}
   declare export class FaPauseCircle extends React$Component<IconBaseProps> {}
   declare export class FaPause extends React$Component<IconBaseProps> {}
   declare export class FaPaw extends React$Component<IconBaseProps> {}
+  declare export class FaPeace extends React$Component<IconBaseProps> {}
+  declare export class FaPenAlt extends React$Component<IconBaseProps> {}
+  declare export class FaPenFancy extends React$Component<IconBaseProps> {}
+  declare export class FaPenNib extends React$Component<IconBaseProps> {}
   declare export class FaPenSquare extends React$Component<IconBaseProps> {}
+  declare export class FaPen extends React$Component<IconBaseProps> {}
   declare export class FaPencilAlt extends React$Component<IconBaseProps> {}
+  declare export class FaPencilRuler extends React$Component<IconBaseProps> {}
   declare export class FaPeopleCarry extends React$Component<IconBaseProps> {}
   declare export class FaPercent extends React$Component<IconBaseProps> {}
   declare export class FaPercentage extends React$Component<IconBaseProps> {}
@@ -785,8 +976,12 @@ declare module 'react-icons/fa' {
   declare export class FaPhoneSquare extends React$Component<IconBaseProps> {}
   declare export class FaPhoneVolume extends React$Component<IconBaseProps> {}
   declare export class FaPhone extends React$Component<IconBaseProps> {}
+  declare export class FaPi extends React$Component<IconBaseProps> {}
   declare export class FaPiggyBank extends React$Component<IconBaseProps> {}
   declare export class FaPills extends React$Component<IconBaseProps> {}
+  declare export class FaPlaceOfWorship extends React$Component<IconBaseProps> {}
+  declare export class FaPlaneArrival extends React$Component<IconBaseProps> {}
+  declare export class FaPlaneDeparture extends React$Component<IconBaseProps> {}
   declare export class FaPlane extends React$Component<IconBaseProps> {}
   declare export class FaPlayCircle extends React$Component<IconBaseProps> {}
   declare export class FaPlay extends React$Component<IconBaseProps> {}
@@ -795,12 +990,18 @@ declare module 'react-icons/fa' {
   declare export class FaPlusSquare extends React$Component<IconBaseProps> {}
   declare export class FaPlus extends React$Component<IconBaseProps> {}
   declare export class FaPodcast extends React$Component<IconBaseProps> {}
+  declare export class FaPollH extends React$Component<IconBaseProps> {}
+  declare export class FaPoll extends React$Component<IconBaseProps> {}
   declare export class FaPoo extends React$Component<IconBaseProps> {}
+  declare export class FaPoop extends React$Component<IconBaseProps> {}
   declare export class FaPortrait extends React$Component<IconBaseProps> {}
   declare export class FaPoundSign extends React$Component<IconBaseProps> {}
   declare export class FaPowerOff extends React$Component<IconBaseProps> {}
+  declare export class FaPray extends React$Component<IconBaseProps> {}
+  declare export class FaPrayingHands extends React$Component<IconBaseProps> {}
   declare export class FaPrescriptionBottleAlt extends React$Component<IconBaseProps> {}
   declare export class FaPrescriptionBottle extends React$Component<IconBaseProps> {}
+  declare export class FaPrescription extends React$Component<IconBaseProps> {}
   declare export class FaPrint extends React$Component<IconBaseProps> {}
   declare export class FaProcedures extends React$Component<IconBaseProps> {}
   declare export class FaProjectDiagram extends React$Component<IconBaseProps> {}
@@ -811,6 +1012,7 @@ declare module 'react-icons/fa' {
   declare export class FaQuidditch extends React$Component<IconBaseProps> {}
   declare export class FaQuoteLeft extends React$Component<IconBaseProps> {}
   declare export class FaQuoteRight extends React$Component<IconBaseProps> {}
+  declare export class FaQuran extends React$Component<IconBaseProps> {}
   declare export class FaRandom extends React$Component<IconBaseProps> {}
   declare export class FaReceipt extends React$Component<IconBaseProps> {}
   declare export class FaRecycle extends React$Component<IconBaseProps> {}
@@ -821,9 +1023,11 @@ declare module 'react-icons/fa' {
   declare export class FaReply extends React$Component<IconBaseProps> {}
   declare export class FaRetweet extends React$Component<IconBaseProps> {}
   declare export class FaRibbon extends React$Component<IconBaseProps> {}
+  declare export class FaRing extends React$Component<IconBaseProps> {}
   declare export class FaRoad extends React$Component<IconBaseProps> {}
   declare export class FaRobot extends React$Component<IconBaseProps> {}
   declare export class FaRocket extends React$Component<IconBaseProps> {}
+  declare export class FaRoute extends React$Component<IconBaseProps> {}
   declare export class FaRssSquare extends React$Component<IconBaseProps> {}
   declare export class FaRss extends React$Component<IconBaseProps> {}
   declare export class FaRubleSign extends React$Component<IconBaseProps> {}
@@ -831,15 +1035,22 @@ declare module 'react-icons/fa' {
   declare export class FaRulerHorizontal extends React$Component<IconBaseProps> {}
   declare export class FaRulerVertical extends React$Component<IconBaseProps> {}
   declare export class FaRuler extends React$Component<IconBaseProps> {}
+  declare export class FaRunning extends React$Component<IconBaseProps> {}
   declare export class FaRupeeSign extends React$Component<IconBaseProps> {}
+  declare export class FaSadCry extends React$Component<IconBaseProps> {}
+  declare export class FaSadTear extends React$Component<IconBaseProps> {}
   declare export class FaSave extends React$Component<IconBaseProps> {}
   declare export class FaSchool extends React$Component<IconBaseProps> {}
   declare export class FaScrewdriver extends React$Component<IconBaseProps> {}
+  declare export class FaScroll extends React$Component<IconBaseProps> {}
+  declare export class FaSearchDollar extends React$Component<IconBaseProps> {}
+  declare export class FaSearchLocation extends React$Component<IconBaseProps> {}
   declare export class FaSearchMinus extends React$Component<IconBaseProps> {}
   declare export class FaSearchPlus extends React$Component<IconBaseProps> {}
   declare export class FaSearch extends React$Component<IconBaseProps> {}
   declare export class FaSeedling extends React$Component<IconBaseProps> {}
   declare export class FaServer extends React$Component<IconBaseProps> {}
+  declare export class FaShapes extends React$Component<IconBaseProps> {}
   declare export class FaShareAltSquare extends React$Component<IconBaseProps> {}
   declare export class FaShareAlt extends React$Component<IconBaseProps> {}
   declare export class FaShareSquare extends React$Component<IconBaseProps> {}
@@ -853,18 +1064,30 @@ declare module 'react-icons/fa' {
   declare export class FaShoppingBasket extends React$Component<IconBaseProps> {}
   declare export class FaShoppingCart extends React$Component<IconBaseProps> {}
   declare export class FaShower extends React$Component<IconBaseProps> {}
+  declare export class FaShuttleVan extends React$Component<IconBaseProps> {}
+  declare export class FaSigma extends React$Component<IconBaseProps> {}
   declare export class FaSignInAlt extends React$Component<IconBaseProps> {}
   declare export class FaSignLanguage extends React$Component<IconBaseProps> {}
   declare export class FaSignOutAlt extends React$Component<IconBaseProps> {}
   declare export class FaSign extends React$Component<IconBaseProps> {}
+  declare export class FaSignalAltSlash extends React$Component<IconBaseProps> {}
+  declare export class FaSignalAlt extends React$Component<IconBaseProps> {}
+  declare export class FaSignalSlash extends React$Component<IconBaseProps> {}
   declare export class FaSignal extends React$Component<IconBaseProps> {}
+  declare export class FaSignature extends React$Component<IconBaseProps> {}
   declare export class FaSitemap extends React$Component<IconBaseProps> {}
+  declare export class FaSkullCrossbones extends React$Component<IconBaseProps> {}
   declare export class FaSkull extends React$Component<IconBaseProps> {}
+  declare export class FaSlash extends React$Component<IconBaseProps> {}
   declare export class FaSlidersH extends React$Component<IconBaseProps> {}
+  declare export class FaSmileBeam extends React$Component<IconBaseProps> {}
+  declare export class FaSmileWink extends React$Component<IconBaseProps> {}
   declare export class FaSmile extends React$Component<IconBaseProps> {}
   declare export class FaSmokingBan extends React$Component<IconBaseProps> {}
   declare export class FaSmoking extends React$Component<IconBaseProps> {}
   declare export class FaSnowflake extends React$Component<IconBaseProps> {}
+  declare export class FaSocks extends React$Component<IconBaseProps> {}
+  declare export class FaSolarPanel extends React$Component<IconBaseProps> {}
   declare export class FaSortAlphaDown extends React$Component<IconBaseProps> {}
   declare export class FaSortAlphaUp extends React$Component<IconBaseProps> {}
   declare export class FaSortAmountDown extends React$Component<IconBaseProps> {}
@@ -874,11 +1097,22 @@ declare module 'react-icons/fa' {
   declare export class FaSortNumericUp extends React$Component<IconBaseProps> {}
   declare export class FaSortUp extends React$Component<IconBaseProps> {}
   declare export class FaSort extends React$Component<IconBaseProps> {}
+  declare export class FaSpa extends React$Component<IconBaseProps> {}
   declare export class FaSpaceShuttle extends React$Component<IconBaseProps> {}
+  declare export class FaSpider extends React$Component<IconBaseProps> {}
   declare export class FaSpinner extends React$Component<IconBaseProps> {}
+  declare export class FaSplotch extends React$Component<IconBaseProps> {}
+  declare export class FaSprayCan extends React$Component<IconBaseProps> {}
   declare export class FaSquareFull extends React$Component<IconBaseProps> {}
+  declare export class FaSquareRootAlt extends React$Component<IconBaseProps> {}
+  declare export class FaSquareRoot extends React$Component<IconBaseProps> {}
   declare export class FaSquare extends React$Component<IconBaseProps> {}
+  declare export class FaStamp extends React$Component<IconBaseProps> {}
+  declare export class FaStarAndCrescent extends React$Component<IconBaseProps> {}
+  declare export class FaStarHalfAlt extends React$Component<IconBaseProps> {}
   declare export class FaStarHalf extends React$Component<IconBaseProps> {}
+  declare export class FaStarOfDavid extends React$Component<IconBaseProps> {}
+  declare export class FaStarOfLife extends React$Component<IconBaseProps> {}
   declare export class FaStar extends React$Component<IconBaseProps> {}
   declare export class FaStepBackward extends React$Component<IconBaseProps> {}
   declare export class FaStepForward extends React$Component<IconBaseProps> {}
@@ -895,9 +1129,15 @@ declare module 'react-icons/fa' {
   declare export class FaStroopwafel extends React$Component<IconBaseProps> {}
   declare export class FaSubscript extends React$Component<IconBaseProps> {}
   declare export class FaSubway extends React$Component<IconBaseProps> {}
+  declare export class FaSuitcaseRolling extends React$Component<IconBaseProps> {}
   declare export class FaSuitcase extends React$Component<IconBaseProps> {}
   declare export class FaSun extends React$Component<IconBaseProps> {}
   declare export class FaSuperscript extends React$Component<IconBaseProps> {}
+  declare export class FaSurprise extends React$Component<IconBaseProps> {}
+  declare export class FaSwatchbook extends React$Component<IconBaseProps> {}
+  declare export class FaSwimmer extends React$Component<IconBaseProps> {}
+  declare export class FaSwimmingPool extends React$Component<IconBaseProps> {}
+  declare export class FaSynagogue extends React$Component<IconBaseProps> {}
   declare export class FaSyncAlt extends React$Component<IconBaseProps> {}
   declare export class FaSync extends React$Component<IconBaseProps> {}
   declare export class FaSyringe extends React$Component<IconBaseProps> {}
@@ -909,32 +1149,46 @@ declare module 'react-icons/fa' {
   declare export class FaTachometerAlt extends React$Component<IconBaseProps> {}
   declare export class FaTag extends React$Component<IconBaseProps> {}
   declare export class FaTags extends React$Component<IconBaseProps> {}
+  declare export class FaTally extends React$Component<IconBaseProps> {}
   declare export class FaTape extends React$Component<IconBaseProps> {}
   declare export class FaTasks extends React$Component<IconBaseProps> {}
   declare export class FaTaxi extends React$Component<IconBaseProps> {}
+  declare export class FaTeethOpen extends React$Component<IconBaseProps> {}
+  declare export class FaTeeth extends React$Component<IconBaseProps> {}
   declare export class FaTerminal extends React$Component<IconBaseProps> {}
   declare export class FaTextHeight extends React$Component<IconBaseProps> {}
   declare export class FaTextWidth extends React$Component<IconBaseProps> {}
   declare export class FaThLarge extends React$Component<IconBaseProps> {}
   declare export class FaThList extends React$Component<IconBaseProps> {}
   declare export class FaTh extends React$Component<IconBaseProps> {}
+  declare export class FaTheaterMasks extends React$Component<IconBaseProps> {}
   declare export class FaThermometerEmpty extends React$Component<IconBaseProps> {}
   declare export class FaThermometerFull extends React$Component<IconBaseProps> {}
   declare export class FaThermometerHalf extends React$Component<IconBaseProps> {}
   declare export class FaThermometerQuarter extends React$Component<IconBaseProps> {}
   declare export class FaThermometerThreeQuarters extends React$Component<IconBaseProps> {}
   declare export class FaThermometer extends React$Component<IconBaseProps> {}
+  declare export class FaTheta extends React$Component<IconBaseProps> {}
   declare export class FaThumbsDown extends React$Component<IconBaseProps> {}
   declare export class FaThumbsUp extends React$Component<IconBaseProps> {}
   declare export class FaThumbtack extends React$Component<IconBaseProps> {}
   declare export class FaTicketAlt extends React$Component<IconBaseProps> {}
+  declare export class FaTilde extends React$Component<IconBaseProps> {}
   declare export class FaTimesCircle extends React$Component<IconBaseProps> {}
   declare export class FaTimes extends React$Component<IconBaseProps> {}
+  declare export class FaTintSlash extends React$Component<IconBaseProps> {}
   declare export class FaTint extends React$Component<IconBaseProps> {}
+  declare export class FaTired extends React$Component<IconBaseProps> {}
   declare export class FaToggleOff extends React$Component<IconBaseProps> {}
   declare export class FaToggleOn extends React$Component<IconBaseProps> {}
+  declare export class FaToiletPaper extends React$Component<IconBaseProps> {}
   declare export class FaToolbox extends React$Component<IconBaseProps> {}
+  declare export class FaTooth extends React$Component<IconBaseProps> {}
+  declare export class FaTorah extends React$Component<IconBaseProps> {}
+  declare export class FaToriiGate extends React$Component<IconBaseProps> {}
+  declare export class FaTractor extends React$Component<IconBaseProps> {}
   declare export class FaTrademark extends React$Component<IconBaseProps> {}
+  declare export class FaTrafficLight extends React$Component<IconBaseProps> {}
   declare export class FaTrain extends React$Component<IconBaseProps> {}
   declare export class FaTransgenderAlt extends React$Component<IconBaseProps> {}
   declare export class FaTransgender extends React$Component<IconBaseProps> {}
@@ -943,15 +1197,19 @@ declare module 'react-icons/fa' {
   declare export class FaTree extends React$Component<IconBaseProps> {}
   declare export class FaTrophy extends React$Component<IconBaseProps> {}
   declare export class FaTruckLoading extends React$Component<IconBaseProps> {}
+  declare export class FaTruckMonster extends React$Component<IconBaseProps> {}
   declare export class FaTruckMoving extends React$Component<IconBaseProps> {}
+  declare export class FaTruckPickup extends React$Component<IconBaseProps> {}
   declare export class FaTruck extends React$Component<IconBaseProps> {}
   declare export class FaTshirt extends React$Component<IconBaseProps> {}
   declare export class FaTty extends React$Component<IconBaseProps> {}
   declare export class FaTv extends React$Component<IconBaseProps> {}
+  declare export class FaUmbrellaBeach extends React$Component<IconBaseProps> {}
   declare export class FaUmbrella extends React$Component<IconBaseProps> {}
   declare export class FaUnderline extends React$Component<IconBaseProps> {}
   declare export class FaUndoAlt extends React$Component<IconBaseProps> {}
   declare export class FaUndo extends React$Component<IconBaseProps> {}
+  declare export class FaUnion extends React$Component<IconBaseProps> {}
   declare export class FaUniversalAccess extends React$Component<IconBaseProps> {}
   declare export class FaUniversity extends React$Component<IconBaseProps> {}
   declare export class FaUnlink extends React$Component<IconBaseProps> {}
@@ -968,6 +1226,7 @@ declare module 'react-icons/fa' {
   declare export class FaUserEdit extends React$Component<IconBaseProps> {}
   declare export class FaUserFriends extends React$Component<IconBaseProps> {}
   declare export class FaUserGraduate extends React$Component<IconBaseProps> {}
+  declare export class FaUserInjured extends React$Component<IconBaseProps> {}
   declare export class FaUserLock extends React$Component<IconBaseProps> {}
   declare export class FaUserMd extends React$Component<IconBaseProps> {}
   declare export class FaUserMinus extends React$Component<IconBaseProps> {}
@@ -984,6 +1243,8 @@ declare module 'react-icons/fa' {
   declare export class FaUsers extends React$Component<IconBaseProps> {}
   declare export class FaUtensilSpoon extends React$Component<IconBaseProps> {}
   declare export class FaUtensils extends React$Component<IconBaseProps> {}
+  declare export class FaValueAbsolute extends React$Component<IconBaseProps> {}
+  declare export class FaVectorSquare extends React$Component<IconBaseProps> {}
   declare export class FaVenusDouble extends React$Component<IconBaseProps> {}
   declare export class FaVenusMars extends React$Component<IconBaseProps> {}
   declare export class FaVenus extends React$Component<IconBaseProps> {}
@@ -991,25 +1252,187 @@ declare module 'react-icons/fa' {
   declare export class FaVials extends React$Component<IconBaseProps> {}
   declare export class FaVideoSlash extends React$Component<IconBaseProps> {}
   declare export class FaVideo extends React$Component<IconBaseProps> {}
+  declare export class FaVihara extends React$Component<IconBaseProps> {}
   declare export class FaVolleyballBall extends React$Component<IconBaseProps> {}
   declare export class FaVolumeDown extends React$Component<IconBaseProps> {}
+  declare export class FaVolumeMute extends React$Component<IconBaseProps> {}
   declare export class FaVolumeOff extends React$Component<IconBaseProps> {}
+  declare export class FaVolumeSlash extends React$Component<IconBaseProps> {}
   declare export class FaVolumeUp extends React$Component<IconBaseProps> {}
+  declare export class FaVolume extends React$Component<IconBaseProps> {}
   declare export class FaWalking extends React$Component<IconBaseProps> {}
   declare export class FaWallet extends React$Component<IconBaseProps> {}
   declare export class FaWarehouse extends React$Component<IconBaseProps> {}
+  declare export class FaWeightHanging extends React$Component<IconBaseProps> {}
   declare export class FaWeight extends React$Component<IconBaseProps> {}
   declare export class FaWheelchair extends React$Component<IconBaseProps> {}
+  declare export class FaWifiSlash extends React$Component<IconBaseProps> {}
   declare export class FaWifi extends React$Component<IconBaseProps> {}
+  declare export class FaWind extends React$Component<IconBaseProps> {}
   declare export class FaWindowClose extends React$Component<IconBaseProps> {}
   declare export class FaWindowMaximize extends React$Component<IconBaseProps> {}
   declare export class FaWindowMinimize extends React$Component<IconBaseProps> {}
   declare export class FaWindowRestore extends React$Component<IconBaseProps> {}
+  declare export class FaWineBottle extends React$Component<IconBaseProps> {}
+  declare export class FaWineGlassAlt extends React$Component<IconBaseProps> {}
   declare export class FaWineGlass extends React$Component<IconBaseProps> {}
   declare export class FaWonSign extends React$Component<IconBaseProps> {}
   declare export class FaWrench extends React$Component<IconBaseProps> {}
   declare export class FaXRay extends React$Component<IconBaseProps> {}
   declare export class FaYenSign extends React$Component<IconBaseProps> {}
+  declare export class FaYinYang extends React$Component<IconBaseProps> {}
+  declare export class FaRegAddressBook extends React$Component<IconBaseProps> {}
+  declare export class FaRegAddressCard extends React$Component<IconBaseProps> {}
+  declare export class FaRegAngry extends React$Component<IconBaseProps> {}
+  declare export class FaRegArrowAltCircleDown extends React$Component<IconBaseProps> {}
+  declare export class FaRegArrowAltCircleLeft extends React$Component<IconBaseProps> {}
+  declare export class FaRegArrowAltCircleRight extends React$Component<IconBaseProps> {}
+  declare export class FaRegArrowAltCircleUp extends React$Component<IconBaseProps> {}
+  declare export class FaRegBellSlash extends React$Component<IconBaseProps> {}
+  declare export class FaRegBell extends React$Component<IconBaseProps> {}
+  declare export class FaRegBookmark extends React$Component<IconBaseProps> {}
+  declare export class FaRegBuilding extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendarAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendarCheck extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendarMinus extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendarPlus extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendarTimes extends React$Component<IconBaseProps> {}
+  declare export class FaRegCalendar extends React$Component<IconBaseProps> {}
+  declare export class FaRegCaretSquareDown extends React$Component<IconBaseProps> {}
+  declare export class FaRegCaretSquareLeft extends React$Component<IconBaseProps> {}
+  declare export class FaRegCaretSquareRight extends React$Component<IconBaseProps> {}
+  declare export class FaRegCaretSquareUp extends React$Component<IconBaseProps> {}
+  declare export class FaRegChartBar extends React$Component<IconBaseProps> {}
+  declare export class FaRegCheckCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegCheckSquare extends React$Component<IconBaseProps> {}
+  declare export class FaRegCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegClipboard extends React$Component<IconBaseProps> {}
+  declare export class FaRegClock extends React$Component<IconBaseProps> {}
+  declare export class FaRegClone extends React$Component<IconBaseProps> {}
+  declare export class FaRegClosedCaptioning extends React$Component<IconBaseProps> {}
+  declare export class FaRegCommentAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegCommentDots extends React$Component<IconBaseProps> {}
+  declare export class FaRegComment extends React$Component<IconBaseProps> {}
+  declare export class FaRegComments extends React$Component<IconBaseProps> {}
+  declare export class FaRegCompass extends React$Component<IconBaseProps> {}
+  declare export class FaRegCopy extends React$Component<IconBaseProps> {}
+  declare export class FaRegCopyright extends React$Component<IconBaseProps> {}
+  declare export class FaRegCreditCard extends React$Component<IconBaseProps> {}
+  declare export class FaRegDizzy extends React$Component<IconBaseProps> {}
+  declare export class FaRegDotCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegEdit extends React$Component<IconBaseProps> {}
+  declare export class FaRegEnvelopeOpen extends React$Component<IconBaseProps> {}
+  declare export class FaRegEnvelope extends React$Component<IconBaseProps> {}
+  declare export class FaRegEyeSlash extends React$Component<IconBaseProps> {}
+  declare export class FaRegEye extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileArchive extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileAudio extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileCode extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileExcel extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileImage extends React$Component<IconBaseProps> {}
+  declare export class FaRegFilePdf extends React$Component<IconBaseProps> {}
+  declare export class FaRegFilePowerpoint extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileVideo extends React$Component<IconBaseProps> {}
+  declare export class FaRegFileWord extends React$Component<IconBaseProps> {}
+  declare export class FaRegFile extends React$Component<IconBaseProps> {}
+  declare export class FaRegFlag extends React$Component<IconBaseProps> {}
+  declare export class FaRegFlushed extends React$Component<IconBaseProps> {}
+  declare export class FaRegFolderOpen extends React$Component<IconBaseProps> {}
+  declare export class FaRegFolder extends React$Component<IconBaseProps> {}
+  declare export class FaRegFontAwesomeLogoFull extends React$Component<IconBaseProps> {}
+  declare export class FaRegFrownOpen extends React$Component<IconBaseProps> {}
+  declare export class FaRegFrown extends React$Component<IconBaseProps> {}
+  declare export class FaRegFutbol extends React$Component<IconBaseProps> {}
+  declare export class FaRegGem extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrimace extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinBeamSweat extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinBeam extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinHearts extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinSquintTears extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinSquint extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinStars extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinTears extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinTongueSquint extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinTongueWink extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinTongue extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrinWink extends React$Component<IconBaseProps> {}
+  declare export class FaRegGrin extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandLizard extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPaper extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPeace extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPointDown extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPointLeft extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPointRight extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPointUp extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandPointer extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandRock extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandScissors extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandSpock extends React$Component<IconBaseProps> {}
+  declare export class FaRegHandshake extends React$Component<IconBaseProps> {}
+  declare export class FaRegHdd extends React$Component<IconBaseProps> {}
+  declare export class FaRegHeart extends React$Component<IconBaseProps> {}
+  declare export class FaRegHospital extends React$Component<IconBaseProps> {}
+  declare export class FaRegHourglass extends React$Component<IconBaseProps> {}
+  declare export class FaRegIdBadge extends React$Component<IconBaseProps> {}
+  declare export class FaRegIdCard extends React$Component<IconBaseProps> {}
+  declare export class FaRegImage extends React$Component<IconBaseProps> {}
+  declare export class FaRegImages extends React$Component<IconBaseProps> {}
+  declare export class FaRegKeyboard extends React$Component<IconBaseProps> {}
+  declare export class FaRegKissBeam extends React$Component<IconBaseProps> {}
+  declare export class FaRegKissWinkHeart extends React$Component<IconBaseProps> {}
+  declare export class FaRegKiss extends React$Component<IconBaseProps> {}
+  declare export class FaRegLaughBeam extends React$Component<IconBaseProps> {}
+  declare export class FaRegLaughSquint extends React$Component<IconBaseProps> {}
+  declare export class FaRegLaughWink extends React$Component<IconBaseProps> {}
+  declare export class FaRegLaugh extends React$Component<IconBaseProps> {}
+  declare export class FaRegLemon extends React$Component<IconBaseProps> {}
+  declare export class FaRegLifeRing extends React$Component<IconBaseProps> {}
+  declare export class FaRegLightbulb extends React$Component<IconBaseProps> {}
+  declare export class FaRegListAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegMap extends React$Component<IconBaseProps> {}
+  declare export class FaRegMehBlank extends React$Component<IconBaseProps> {}
+  declare export class FaRegMehRollingEyes extends React$Component<IconBaseProps> {}
+  declare export class FaRegMeh extends React$Component<IconBaseProps> {}
+  declare export class FaRegMinusSquare extends React$Component<IconBaseProps> {}
+  declare export class FaRegMoneyBillAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegMoon extends React$Component<IconBaseProps> {}
+  declare export class FaRegNewspaper extends React$Component<IconBaseProps> {}
+  declare export class FaRegObjectGroup extends React$Component<IconBaseProps> {}
+  declare export class FaRegObjectUngroup extends React$Component<IconBaseProps> {}
+  declare export class FaRegPaperPlane extends React$Component<IconBaseProps> {}
+  declare export class FaRegPauseCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegPlayCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegPlusSquare extends React$Component<IconBaseProps> {}
+  declare export class FaRegQuestionCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegRegistered extends React$Component<IconBaseProps> {}
+  declare export class FaRegSadCry extends React$Component<IconBaseProps> {}
+  declare export class FaRegSadTear extends React$Component<IconBaseProps> {}
+  declare export class FaRegSave extends React$Component<IconBaseProps> {}
+  declare export class FaRegShareSquare extends React$Component<IconBaseProps> {}
+  declare export class FaRegSmileBeam extends React$Component<IconBaseProps> {}
+  declare export class FaRegSmileWink extends React$Component<IconBaseProps> {}
+  declare export class FaRegSmile extends React$Component<IconBaseProps> {}
+  declare export class FaRegSnowflake extends React$Component<IconBaseProps> {}
+  declare export class FaRegSquare extends React$Component<IconBaseProps> {}
+  declare export class FaRegStarHalf extends React$Component<IconBaseProps> {}
+  declare export class FaRegStar extends React$Component<IconBaseProps> {}
+  declare export class FaRegStickyNote extends React$Component<IconBaseProps> {}
+  declare export class FaRegStopCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegSun extends React$Component<IconBaseProps> {}
+  declare export class FaRegSurprise extends React$Component<IconBaseProps> {}
+  declare export class FaRegThumbsDown extends React$Component<IconBaseProps> {}
+  declare export class FaRegThumbsUp extends React$Component<IconBaseProps> {}
+  declare export class FaRegTimesCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegTired extends React$Component<IconBaseProps> {}
+  declare export class FaRegTrashAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRegUserCircle extends React$Component<IconBaseProps> {}
+  declare export class FaRegUser extends React$Component<IconBaseProps> {}
+  declare export class FaRegWindowClose extends React$Component<IconBaseProps> {}
+  declare export class FaRegWindowMaximize extends React$Component<IconBaseProps> {}
+  declare export class FaRegWindowMinimize extends React$Component<IconBaseProps> {}
+  declare export class FaRegWindowRestore extends React$Component<IconBaseProps> {}
 }
 
 declare module 'react-icons/io' {
@@ -3015,6 +3438,7 @@ declare module 'react-icons/ti' {
 declare module 'react-icons/go' {
   declare export class GoAlert extends React$Component<IconBaseProps> {}
   declare export class GoArchive extends React$Component<IconBaseProps> {}
+  declare export class GoArrowBoth extends React$Component<IconBaseProps> {}
   declare export class GoArrowDown extends React$Component<IconBaseProps> {}
   declare export class GoArrowLeft extends React$Component<IconBaseProps> {}
   declare export class GoArrowRight extends React$Component<IconBaseProps> {}
