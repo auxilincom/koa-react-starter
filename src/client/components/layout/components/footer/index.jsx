@@ -8,7 +8,7 @@ const Footer = (): React$Node => {
   const year: number = new Date().getFullYear();
   return (
     <footer className={styles.footer}>
-      {'Ship, '}
+      {'Auxilin, '}
       {year}
       {' © All rights reserved'}
     </footer>
