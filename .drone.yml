@@ -1,6 +1,6 @@
 pipeline:
   run-koa-react-starter-tests:
-    image: node:10.12.0
+    image: node:10.13.0
     commands:
       - chmod +x ./bin/run.sh
       - ./bin/run.sh
