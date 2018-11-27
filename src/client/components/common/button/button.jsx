@@ -10,9 +10,10 @@ const colors = {
   green: 'green',
   blue: 'blue',
   red: 'red',
+  purple: 'purple',
 };
 
-type ColorType = 'green' | 'blue' | 'red';
+type ColorType = 'green' | 'blue' | 'red' | 'purple' | null;
 
 type PropsType = {
   children: Node,

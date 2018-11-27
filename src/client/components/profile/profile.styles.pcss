@@ -1,5 +1,50 @@
 @import 'variables.pcss';
 
 .button {
-  margin-right: var(--distance-500);
+  width: auto;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-top: var(--distance-600);
+}
+
+.form {
+  padding: 0 var(--distance-600);
+}
+
+.profile {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: var(--border-radius-600);
+  width: 90%;
+  margin: auto;
+  background-color: var(--white);
+  padding: var(--distance-600);
+  box-sizing: border-box;
+  font-weight: var(--text-weight-100);
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  border-radius: var(--border-radius-400);
+  padding: var(--distance-600);
+  margin: -30px 0 30px 0;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 0, 0, 0.14);
+  background: var(--deep-purple-gradient);
+}
+
+.headerTitle {
+  font-size: var(--text-600);
+}
+
+.headerDescription {
+  font-size: var(--text-400);
+}
+
+.inputTitle:not(:first-child) {
+  margin-top: var(--distance-600);
 }

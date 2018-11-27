@@ -57,7 +57,9 @@ export default class Input extends Component<PropsType> {
           onChange={this.onChange}
           {...props}
         />
-
+        <div className={styles.focusBorderWrap}>
+          <div className={styles.focusBorder} />
+        </div>
         {this.errors()}
       </div>
     );

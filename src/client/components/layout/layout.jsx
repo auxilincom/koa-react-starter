@@ -6,6 +6,7 @@ import type { Node } from 'react';
 import Toast from 'components/common/toast';
 import Header from './components/header';
 import Footer from './components/footer';
+import Sidebar from './components/sidebar';
 
 import styles from './layout.styles.pcss';
 
@@ -19,6 +20,8 @@ class Layout extends Component<PropsType> {
 
     return (
       <div className={styles.page}>
+        <Sidebar />
+
         <Header />
 
         <div className={styles.content}>

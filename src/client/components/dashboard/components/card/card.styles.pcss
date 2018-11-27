@@ -1,0 +1,79 @@
+@import 'variables.pcss';
+
+.card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: var(--border-radius-600);
+  width: 220px;
+  background-color: var(--white);
+  padding: var(--distance-600);
+  box-sizing: border-box;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: var(--distance-700);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.cardIcon {
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--border-radius-600);
+  padding: var(--distance-700);
+  margin-top: -30px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 0, 0, 0.14);
+
+  &.green {
+    background: var(--green-gradient);
+  }
+
+  &.blue {
+    background: var(--light-blue-gradient);
+  }
+
+  &.purple {
+    background: var(--deep-purple-gradient);
+  }
+
+  &.orange {
+    background: var(--orange-gradient);
+  }
+}
+
+.cardData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45px;
+  max-width: 85px;
+  text-align: right;
+}
+
+.cardTitle {
+  font-size: var(--text-400);
+  color: var(--grey-500);
+}
+
+.cardValue {
+  color: var(--grey-800);
+  font-size: var(--text-800);
+  font-weight: var(--text-weight-300);
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  color: var(--grey-500);
+  font-size: var(--text-300);
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: -5px;
+}
+
+.cardFooterIcon {
+  margin-right: 4px;
+}
