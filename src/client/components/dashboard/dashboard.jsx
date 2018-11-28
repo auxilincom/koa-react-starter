@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
+
 import {
   MdPeople,
   MdMessage,
@@ -90,12 +90,12 @@ const tables: Array<TableType> = [
   },
 ];
 
-class Dashboard extends Component<*> {
-  render(): Node {
+class Dashboard extends Component<{}> {
+  render(): React$Node {
     return (
       <div className={styles.dashboard}>
         <div className={styles.cards}>
-          {cards.map((card: CardType): Node => {
+          {cards.map((card: CardType): React$Node => {
             return (
               <Card
                 key={card.title}
@@ -111,7 +111,7 @@ class Dashboard extends Component<*> {
           })}
         </div>
         <div className={styles.tables}>
-          {tables.map((table: TableType): Node => {
+          {tables.map((table: TableType): React$Node => {
             return (
               <Table
                 headerTitle={table.headerTitle}

@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import type { IconBaseProps } from 'react-icon-base';
 import classnames from 'classnames';
 
@@ -36,9 +35,7 @@ class Card extends Component<PropsType> {
     className: '',
   }
 
-  static iconColors = iconColors;
-
-  render(): Node {
+  render(): React$Node {
     const {
       icon: Icon,
       title,
@@ -55,15 +52,18 @@ class Card extends Component<PropsType> {
           <div className={classnames(styles.cardIcon, styles[iconColor])}>
             {Icon && <Icon size="42px" color="white" />}
           </div>
+
           <div className={styles.cardData}>
             <span className={styles.cardTitle}>
               {title}
             </span>
+
             <span className={styles.cardValue}>
               {value}
             </span>
           </div>
         </div>
+
         <div className={styles.cardFooter}>
           {FooterIcon && <FooterIcon size="15px" className={styles.cardFooterIcon} />}
           <span>

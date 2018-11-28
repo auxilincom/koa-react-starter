@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import styles from './button.styles.pcss';
@@ -42,7 +41,7 @@ class Button extends Component<PropsType> {
     }
   };
 
-  render(): Node {
+  render(): React$Node {
     const {
       children, tabIndex, onClick, onKeyDown, color, className,
     } = this.props;

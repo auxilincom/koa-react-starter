@@ -1,6 +1,6 @@
 @import 'variables.pcss';
 
-.focusBorder {
+.focus-border {
   height: 2px;
   background-color: var(--deep-purple-700);
   position: relative;
@@ -22,7 +22,7 @@
   background-color: inherit;
   color: inherit;
 
-  &:focus + .focusBorderWrap .focusBorder {
+  &:focus + .focus-border-wrap .focus-border {
     display: block;
     animation: border 0.7s;
     width: 100%;
@@ -44,7 +44,7 @@
   margin-top: var(--distance-400);
 }
 
-.focusBorderWrap {
+.focus-border-wrap {
   height: 0;
 }
 

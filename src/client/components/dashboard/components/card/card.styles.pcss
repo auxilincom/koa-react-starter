@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-.cardHeader {
+.card-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -17,14 +17,14 @@
   border-bottom: 1px solid var(--grey-200);
 }
 
-.cardIcon {
+.card-icon {
   height: 42px;
   width: 42px;
   display: flex;
   justify-content: center;
   border-radius: var(--border-radius-600);
   padding: var(--distance-700);
-  margin-top: -30px;
+  margin-top: -var(--distance-900);
   box-shadow: 0 4px 20px 0 var(--grey-400), 0 7px 10px -5px var(--grey-400);
 
   &.green {
@@ -44,7 +44,7 @@
   }
 }
 
-.cardData {
+.card-data {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,27 +53,27 @@
   text-align: right;
 }
 
-.cardTitle {
+.card-title {
   font-size: var(--text-400);
   color: var(--grey-500);
 }
 
-.cardValue {
+.card-value {
   color: var(--grey-800);
   font-size: var(--text-800);
   font-weight: var(--text-weight-300);
 }
 
-.cardFooter {
+.card-footer {
   display: flex;
   flex-direction: row;
   color: var(--grey-500);
   font-size: var(--text-300);
   align-items: center;
-  padding-top: 5px;
-  margin-bottom: -5px;
+  padding-top: var(--distance-400);
+  margin-bottom: -var(--distance-400);
 }
 
-.cardFooterIcon {
+.card-footer-icon {
   margin-right: 4px;
 }
