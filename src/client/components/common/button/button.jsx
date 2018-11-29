@@ -15,7 +15,7 @@ const colors = {
 type ColorType = 'green' | 'blue' | 'red' | 'purple' | null;
 
 type PropsType = {
-  children: Node,
+  children: React$Node,
   onClick?: (e: SyntheticEvent<HTMLDivElement>) => Promise<*> | void,
   onKeyDown?: (e: SyntheticKeyboardEvent<HTMLDivElement>) => Promise<*> | void,
   tabIndex?: string | number,

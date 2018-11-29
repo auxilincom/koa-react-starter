@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import styles from './table.styles.pcss';
@@ -35,7 +34,7 @@ class Table extends Component<PropsType> {
 
   static tableColors = tableColors;
 
-  render(): Node {
+  render(): React$Node {
     const {
       className,
       headerTitle,

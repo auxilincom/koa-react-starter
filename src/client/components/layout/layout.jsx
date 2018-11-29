@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 
 import Toast from 'components/common/toast';
 import Header from './components/header';
@@ -11,11 +10,11 @@ import Sidebar from './components/sidebar';
 import styles from './layout.styles.pcss';
 
 type PropsType = {
-  children: Node,
+  children: React$Node,
 };
 
 class Layout extends Component<PropsType> {
-  render(): Node {
+  render(): React$Node {
     const { children } = this.props;
 
     return (

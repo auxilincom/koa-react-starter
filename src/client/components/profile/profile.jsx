@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 import { connect } from 'react-redux';
 
 import _omit from 'lodash/omit';
@@ -136,7 +135,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
 
   updateUserAsync: AsyncFnType;
 
-  render(): Node {
+  render(): React$Node {
     const {
       firstName,
       lastName,
