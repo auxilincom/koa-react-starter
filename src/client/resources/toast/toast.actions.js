@@ -44,8 +44,8 @@ const addMessage = (dispatch: DispatchFnType, data: ShortMessageType) => {
 
 export const addErrorMessage = (
   title: string,
-  text: string,
-  isHTML: boolean = false,
+  text?: string,
+  isHTML?: boolean = false,
 ): VoidFnType => (dispatch: DispatchFnType) => {
   addMessage(dispatch, {
     type: 'error',
@@ -57,8 +57,8 @@ export const addErrorMessage = (
 
 export const addSuccessMessage = (
   title: string,
-  text: string,
-  isHTML: boolean = false,
+  text?: string,
+  isHTML?: boolean = false,
 ): VoidFnType => (dispatch: DispatchFnType) => {
   addMessage(dispatch, {
     type: 'success',

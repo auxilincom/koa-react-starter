@@ -6,15 +6,12 @@ import { connect } from 'react-redux';
 import _omit from 'lodash/omit';
 import _pick from 'lodash/pick';
 
-import type { StateType } from 'resources/types';
-
 import Input from 'components/common/input';
 import Button, { colors as buttonColors } from 'components/common/button';
 import Form from 'components/common/form';
 
 import { errorsToObject } from 'helpers/api/api.error';
 
-import * as fromUser from 'resources/user/user.selectors';
 import {
   updateUser as updateUserAction,
   fetchUser as fetchUserAction,
@@ -30,15 +27,24 @@ import {
   addErrorMessage as addErrorMessageAction,
   addSuccessMessage as addSuccessMessageAction,
 } from 'resources/toast/toast.actions';
+import type {
+  AddErrorMessageType,
+  AddSuccessMessageType,
+} from 'resources/toast/toast.types';
 
 import styles from './profile.styles.pcss';
 
-type PropsType = {
+type UserFieldType = 'firstName' | 'lastName' | 'email';
+
+type ConnectedDispatchPropsType = {
   updateUser: (id: string, data: UserStateType) => ValidationResultErrorsType,
-  fetchUser: (id: string) => Promise<UserStateType>,
-  user: UserStateType, // eslint-disable-line
-  addErrorMessage: (title: string, text?: string, isHTML?: boolean) => void,
-  addSuccessMessage: (title: string, text?: string, isHTML?: boolean) => void,
+  fetchUser: (id: string) => Promise<?UserStateType>,
+  addErrorMessage: AddErrorMessageType,
+  addSuccessMessage: AddSuccessMessageType,
+};
+
+type PropsType = {
+  ...$Exact<ConnectedDispatchPropsType>,
 };
 
 type ProfileStateType = {
@@ -47,12 +53,6 @@ type ProfileStateType = {
   email: string,
   errors: ValidationErrorsType,
   prevProps?: PropsType,
-};
-
-type UserFieldType = 'firstName' | 'lastName' | 'email';
-
-type ConnectedStateType = {
-  user: UserStateType,
 };
 
 type ChangeFnType = (value: string) => void;
@@ -201,9 +201,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
 }
 
 export default connect(
-  (state: StateType): ConnectedStateType => ({
-    user: fromUser.getUser(state),
-  }),
+  null,
   {
     updateUser: updateUserAction,
     fetchUser: fetchUserAction,

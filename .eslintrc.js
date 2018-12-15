@@ -15,7 +15,7 @@ module.exports = {
       "components": [ "Link" ],
       "specialLink": [ "to" ],
     }],
-    "max-len": ["error", 100, 2, {
+    "max-len": ["error", 150, 2, {
       ignoreUrls: true,
       ignoreComments: false,
       ignoreRegExpLiterals: true,

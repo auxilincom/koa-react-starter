@@ -14,7 +14,7 @@ const configureStore = (initialState: StateType, history: BrowserHistory): Store
     initialState,
     compose(
       applyMiddleware(routerMiddleware(history), thunk),
-      window.devToolsExtension ? window.devToolsExtension() : f => f, // eslint-disable-line
+      window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f, // eslint-disable-line
     ),
   );
 
