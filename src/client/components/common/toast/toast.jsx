@@ -12,7 +12,7 @@ import {
 } from 'react-icons/fa';
 
 import type { StateType } from 'resources/types';
-import { getToasterMessages } from 'resources/toast/toast.selectors';
+import { allMessagesSelector } from 'resources/toast/toast.selectors';
 import { removeMessage as removeMessageAction } from 'resources/toast/toast.actions';
 
 import type { MessageType, MessageTypeType } from 'resources/toast/toast.types';
@@ -122,7 +122,7 @@ class Toast extends Component<ToastPropsType> {
 }
 
 const mapStateToProps = (state: StateType): StatePropsType => ({
-  messages: getToasterMessages(state, 'all'),
+  messages: allMessagesSelector(state),
 });
 
 export default connect(mapStateToProps, {

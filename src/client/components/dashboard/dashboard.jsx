@@ -114,6 +114,7 @@ class Dashboard extends Component<{}> {
           {tables.map((table: TableType): React$Node => {
             return (
               <Table
+                key={table.headerTitle}
                 headerTitle={table.headerTitle}
                 headerDescription={table.headerDescription}
                 color={table.color}

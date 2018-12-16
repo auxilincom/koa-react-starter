@@ -1,6 +1,7 @@
 // @flow
 
-import React from 'react';
+// $FlowFixMe
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import createHistory from 'history/createBrowserHistory';
@@ -29,13 +30,15 @@ const history: BrowserHistory = createHistory();
 const store: StoreType = configureStore(initialState, history);
 
 const Root = (): React$Node => (
-  <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <Layout>
-        {routes()}
-      </Layout>
-    </ConnectedRouter>
-  </Provider>
+  <StrictMode>
+    <Provider store={store}>
+      <ConnectedRouter history={history}>
+        <Layout>
+          {routes()}
+        </Layout>
+      </ConnectedRouter>
+    </Provider>
+  </StrictMode>
 );
 
 const renderApp = () => {
