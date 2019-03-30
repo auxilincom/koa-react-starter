@@ -167,7 +167,8 @@ declare module 'yup' {
     number(): $NumberSchema,
     boolean(): Schema,
     array(): $ArraySchema,
-    reach(schema: Schema, path: string, value: ?Object, context: ?Object): Schema,
+    reach(schema: Schema, path: string, value?: Object, context?: Object): Schema,
+    addMethod(schemaType: Schema, name: string, method: () => Schema): void,
   };
 
   declare module.exports: Yup;

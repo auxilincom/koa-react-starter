@@ -41,7 +41,7 @@ class Card extends Component<PropsType> {
       title,
       value,
       footerIcon: FooterIcon,
-      footerContent,
+      footerContent = null,
       iconColor,
       className,
     } = this.props;
@@ -50,7 +50,7 @@ class Card extends Component<PropsType> {
       <div className={classnames(styles.card, className)}>
         <div className={styles.cardHeader}>
           <div className={classnames(styles.cardIcon, styles[iconColor])}>
-            {Icon && <Icon size="42px" color="white" />}
+            {Icon ? <Icon size="42px" color="white" /> : null}
           </div>
 
           <div className={styles.cardData}>
@@ -65,7 +65,11 @@ class Card extends Component<PropsType> {
         </div>
 
         <div className={styles.cardFooter}>
-          {FooterIcon && <FooterIcon size="15px" className={styles.cardFooterIcon} />}
+          {
+            FooterIcon
+              ? <FooterIcon size="15px" className={styles.cardFooterIcon} />
+              : null
+          }
           <span>
             {footerContent}
           </span>
