@@ -24,9 +24,9 @@ type ToastPropsType = {
   removeMessage: (id: string) => *,
 };
 
-type StatePropsType = {
+type StatePropsType = {|
   messages: Array<MessageType>,
-};
+|};
 
 type KeyDownFnType = (e: SyntheticKeyboardEvent<HTMLDivElement>) => void;
 type VoidFnType = () => void;
@@ -125,6 +125,6 @@ const mapStateToProps = (state: StateType): StatePropsType => ({
   messages: allMessagesSelector(state),
 });
 
-export default connect(mapStateToProps, {
+export default connect<ToastPropsType, {}, _, _, _, _>(mapStateToProps, {
   removeMessage: removeMessageAction,
 })(Toast);

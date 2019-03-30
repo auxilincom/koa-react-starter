@@ -1,3 +1,8 @@
+## v0.4.0 (2019-03-30)
+
+* Update dependencies
+* Update usage of flow with reselect and react-redux
+
 ## v0.3.0 (2018-11-28)
 
 * Update design

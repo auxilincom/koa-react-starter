@@ -200,7 +200,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
   }
 }
 
-export default connect(
+export default connect<PropsType, {}, _, _, _, _>(
   null,
   {
     updateUser: updateUserAction,
