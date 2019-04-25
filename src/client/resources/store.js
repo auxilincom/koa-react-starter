@@ -3,7 +3,7 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { routerMiddleware } from 'connected-react-router';
-import type { BrowserHistory } from 'history/createBrowserHistory';
+import type { BrowserHistory } from 'history';
 
 import reducer from './reducer';
 import type { StoreType, StateType } from './types';
@@ -17,12 +17,6 @@ const configureStore = (initialState: StateType, history: BrowserHistory): Store
       window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f, // eslint-disable-line
     ),
   );
-
-  if (module.hot) {
-    module.hot.accept('./reducer', () => {
-      store.replaceReducer(reducer(history));
-    });
-  }
 
   return store;
 };

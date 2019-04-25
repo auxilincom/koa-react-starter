@@ -1,11 +1,12 @@
 // flow-typed signature: f5c8ded4091b25e23bc26e943c13b429
 // flow-typed version: 6a3fe49a8b/history_v4.x.x/flow_>=v0.25.x
 
-declare module "history/createBrowserHistory" {
+declare module "history" {
   declare function Unblock(): void;
 
   declare export type Action = "PUSH" | "REPLACE" | "POP";
 
+  // browser history
   declare export type BrowserLocation = {
     pathname: string,
     search: string,
@@ -33,7 +34,7 @@ declare module "history/createBrowserHistory" {
 
   declare export type BrowserHistory = IBrowserHistory;
 
-  declare type HistoryOpts = {
+  declare type BrowserHistoryOpts = {
     basename?: string,
     forceRefresh?: boolean,
     getUserConfirmation?: (
@@ -42,14 +43,9 @@ declare module "history/createBrowserHistory" {
     ) => void,
   };
 
-  declare export default (opts?: HistoryOpts) => BrowserHistory;
-}
+  declare export function createBrowserHistory(opts?: BrowserHistoryOpts): BrowserHistory;
 
-declare module "history/createMemoryHistory" {
-  declare function Unblock(): void;
-
-  declare export type Action = "PUSH" | "REPLACE" | "POP";
-
+  // memory history
   declare export type MemoryLocation = {
     pathname: string,
     search: string,
@@ -81,7 +77,7 @@ declare module "history/createMemoryHistory" {
 
   declare export type MemoryHistory = IMemoryHistory;
 
-  declare type HistoryOpts = {
+  declare type MemoryHistoryOpts = {
     initialEntries?: Array<string>,
     initialIndex?: number,
     keyLength?: number,
@@ -91,14 +87,9 @@ declare module "history/createMemoryHistory" {
     ) => void,
   };
 
-  declare export default (opts?: HistoryOpts) => MemoryHistory;
-}
+  declare export function createMemoryHistory(opts?: MemoryHistoryOpts): MemoryHistory;
 
-declare module "history/createHashHistory" {
-  declare function Unblock(): void;
-
-  declare export type Action = "PUSH" | "REPLACE" | "POP";
-
+  // hash history
   declare export type HashLocation = {
     pathname: string,
     search: string,
@@ -124,7 +115,7 @@ declare module "history/createHashHistory" {
 
   declare export type HashHistory = IHashHistory;
 
-  declare type HistoryOpts = {
+  declare type HashHistoryOpts = {
     basename?: string,
     hashType: "slash" | "noslash" | "hashbang",
     getUserConfirmation?: (
@@ -133,5 +124,5 @@ declare module "history/createHashHistory" {
     ) => void,
   };
 
-  declare export default (opts?: HistoryOpts) => HashHistory;
+  declare export function createHashHistory(opts?: HashHistoryOpts): HashHistory;
 }

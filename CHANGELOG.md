@@ -1,3 +1,7 @@
+## v0.5.0 (2019-04-25)
+
+* Change usage of react-hot-loader
+
 ## v0.4.0 (2019-03-30)
 
 * Update dependencies

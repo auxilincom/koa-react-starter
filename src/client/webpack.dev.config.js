@@ -7,7 +7,6 @@ module.exports = {
   entry: {
     main: [
       '@babel/polyfill',
-      'react-hot-loader/patch',
       './index.jsx',
     ],
   },
@@ -52,8 +51,7 @@ module.exports = {
     modules: ['./', 'node_modules'],
     extensions: ['.mjs', '.js', '.jsx', '.pcss'],
     alias: {
-      // temp solution [issue](https://github.com/jquense/yup/issues/273)
-      '@babel/runtime/helpers/builtin': path.resolve('./node_modules/@babel/runtime/helpers'),
+      'react-dom': '@hot-loader/react-dom',
     },
   },
 
