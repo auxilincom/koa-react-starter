@@ -12,7 +12,7 @@ esproposal.class_instance_fields=enable
 
 module.name_mapper.extension='pcss' -> '<PROJECT_ROOT>/src/client/flow-interfaces/CSSFlowStub.js.flow'
 module.system.node.resolve_dirname=src/client
-module.name_mapper='^root$' -> '<PROJECT_ROOT>/src/client/root'
+module.name_mapper='^app$' -> '<PROJECT_ROOT>/src/client/app'
 module.name_mapper='^components\/\(.*\)$' -> '<PROJECT_ROOT>/src/client/components/\1'
 module.name_mapper='^helpers\/\(.*\)$' -> '<PROJECT_ROOT>/src/client/helpers/\1'
 module.name_mapper='^resources\/\(.*\)$' -> '<PROJECT_ROOT>/src/client/resources/\1'

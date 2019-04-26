@@ -1,11 +1,30 @@
 // @flow
 
-import Root from 'root';
+import App from 'app';
 
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
+import { Provider } from 'react-redux';
+import { createBrowserHistory } from 'history';
+import type { BrowserHistory } from 'history';
+import { ConnectedRouter } from 'connected-react-router';
+
+import type { StateType, StoreType } from './resources/types';
+
+import configureStore from './resources/store';
+
 import styles from './styles.pcss';
+
+const initialState: StateType = {
+  user: window.user,
+  toast: {
+    messages: [],
+  },
+};
+
+const history: BrowserHistory = createBrowserHistory();
+const store: StoreType = configureStore(initialState, history);
 
 const minLoadingTime: number = 1500;
 const now: number = Date.now();
@@ -17,7 +36,13 @@ const renderApp = () => {
   }
 
   ReactDOM.render(
-    <Root />,
+    <StrictMode>
+      <Provider store={store}>
+        <ConnectedRouter history={history}>
+          <App />
+        </ConnectedRouter>
+      </Provider>
+    </StrictMode>,
     rootEl,
   );
 };
