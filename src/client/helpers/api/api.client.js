@@ -2,11 +2,7 @@
 
 import axios from 'axios';
 import type {
-  Axios,
-  $AxiosXHR,
-  $AxiosError,
-  $AxiosXHRConfig,
-  AxiosPromise,
+  Axios, $AxiosXHR, $AxiosError, $AxiosXHRConfig, AxiosPromise,
 } from 'axios';
 
 import ApiError from './api.error';
@@ -29,10 +25,7 @@ const api: Axios = axios.create({
 });
 
 // Do not throw errors on 'bad' server response codes
-api.interceptors.response.use(
-  (axiosConfig: $AxiosXHR<*>): $AxiosXHR<*> => axiosConfig,
-  (error: $AxiosError<Object>): Object => error.response || {},
-);
+api.interceptors.response.use((axiosConfig: $AxiosXHR<*>): $AxiosXHR<*> => axiosConfig, (error: $AxiosError<Object>): Object => error.response || {});
 
 const generalError = {
   _global: ['Unexpected Error Occurred'],
@@ -56,7 +49,10 @@ const getCookie = (name: string): ?string => {
   const parts = value.split(`; ${name}=`);
 
   if (parts.length === 2) {
-    return parts.pop().split(';').shift();
+    return parts
+      .pop()
+      .split(';')
+      .shift();
   }
 
   return null;
@@ -91,10 +87,7 @@ const tryUpdateToken = async (): Promise<*> => {
 };
 
 // eslint-disable-next-line
-const handleResponse = function<R>(
-  response: $AxiosXHR<R>,
-  skipUnauthorized: boolean,
-): $AxiosXHR<R> {
+const handleResponse = function<R>(response: $AxiosXHR<R>, skipUnauthorized: boolean): $AxiosXHR<R> {
   if (!response) {
     throwApiError({
       data: { errors: generalError },
@@ -119,9 +112,7 @@ const handleResponse = function<R>(
     status: response.status,
     data: {
       ...response.data,
-      errors: response.data && response.data.errors
-        ? response.data.errors
-        : generalError,
+      errors: response.data && response.data.errors ? response.data.errors : generalError,
     },
   };
   throwApiError(errorData);
@@ -129,10 +120,7 @@ const handleResponse = function<R>(
 };
 
 // eslint-disable-next-line
-const httpRequest = (method: string): AxiosFnType => async function<Req, Res>(
-  url: string,
-  data?: Object,
-): AxiosPromise<Res> {
+const httpRequest = (method: string): AxiosFnType => async function<Req, Res> (url: string, data?: Object): AxiosPromise<Res> {
   await tryUpdateToken();
 
   let urlWithSlash: string = url;

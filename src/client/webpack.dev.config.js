@@ -5,11 +5,7 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    main: [
-      'core-js/stable',
-      'regenerator-runtime/runtime',
-      './index.jsx',
-    ],
+    main: ['core-js/stable', 'regenerator-runtime/runtime', './index.jsx'],
   },
 
   output: {

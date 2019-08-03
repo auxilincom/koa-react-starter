@@ -8,10 +8,6 @@ import routes from './routes';
 
 import Layout from './components/layout';
 
-const App = (): React$Node => (
-  <Layout>
-    {routes()}
-  </Layout>
-);
+const App = (): React$Node => <Layout>{routes()}</Layout>;
 
 export default hot(App);

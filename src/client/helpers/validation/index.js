@@ -8,10 +8,7 @@ import ValidationError from 'yup/lib/ValidationError';
 import _get from 'lodash/get';
 import _set from 'lodash/set';
 
-import type {
-  ValidationResultType,
-  ValidationErrorsType,
-} from './types';
+import type { ValidationResultType, ValidationErrorsType } from './types';
 
 const yupOptions: ValidateOptions = {
   abortEarly: false,
@@ -46,10 +43,7 @@ const parseErrors = (error?: ValidationError, defaultPath: string = ''): Validat
  * @return {object}
  */
 // eslint-disable-next-line
-export const validate = async function<T>(
-  obj: T,
-  schema: ObjectSchema<T>,
-): Promise<ValidationResultType> {
+export const validate = async function<T>(obj: T, schema: ObjectSchema<T>): Promise<ValidationResultType> {
   try {
     const value: T = await schema.validate(obj, yupOptions);
     return {
@@ -73,11 +67,7 @@ export const validate = async function<T>(
  * @return {object}
  */
 // eslint-disable-next-line
-export const validateField = async function<T>(
-  obj: T,
-  field: string,
-  schema: ObjectSchema<T>,
-): Promise<ValidationResultType> {
+export const validateField = async function<T>(obj: T, field: string, schema: ObjectSchema<T>): Promise<ValidationResultType> {
   const newSchema: ObjectSchema<T> = reach(schema, field);
 
   try {

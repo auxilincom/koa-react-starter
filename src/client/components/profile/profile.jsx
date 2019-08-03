@@ -13,24 +13,12 @@ import Form from 'components/common/form';
 import { errorsToObject } from 'helpers/api/api.error';
 
 import {
-  updateUser as updateUserAction,
-  fetchUser as fetchUserAction,
-  validateUserField,
-  validateUser,
+  updateUser as updateUserAction, fetchUser as fetchUserAction, validateUserField, validateUser,
 } from 'resources/user/user.actions';
-import type {
-  StateType as UserStateType,
-  ValidationErrorsType,
-} from 'resources/user/user.types';
+import type { StateType as UserStateType, ValidationErrorsType } from 'resources/user/user.types';
 import type { ValidationResultErrorsType } from 'helpers/validation/types';
-import {
-  addErrorMessage as addErrorMessageAction,
-  addSuccessMessage as addSuccessMessageAction,
-} from 'resources/toast/toast.actions';
-import type {
-  AddErrorMessageType,
-  AddSuccessMessageType,
-} from 'resources/toast/toast.types';
+import { addErrorMessage as addErrorMessageAction, addSuccessMessage as addSuccessMessageAction } from 'resources/toast/toast.actions';
+import type { AddErrorMessageType, AddSuccessMessageType } from 'resources/toast/toast.types';
 
 import styles from './profile.styles.pcss';
 
@@ -59,6 +47,8 @@ type ChangeFnType = (value: string) => void;
 type AsyncFnType = () => Promise<*>;
 
 class Profile extends React.Component<PropsType, ProfileStateType> {
+  updateUserAsync: AsyncFnType;
+
   constructor(props: PropsType) {
     super(props);
 
@@ -91,10 +81,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
     this.setState({ errors });
 
     const { addErrorMessage } = this.props;
-    addErrorMessage(
-      'Unable to save user info:',
-      errors._global ? errors._global.join(', ') : '',
-    );
+    addErrorMessage('Unable to save user info:', errors._global ? errors._global.join(', ') : '');
   }
 
   async feathUserData(): Promise<*> {
@@ -105,20 +92,14 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
   }
 
   async updateUser(): Promise<*> {
-    const result: ValidationResultErrorsType = await validateUser(_omit(
-      this.state,
-      ['errors', 'prevProps'],
-    ));
+    const result: ValidationResultErrorsType = await validateUser(_omit(this.state, ['errors', 'prevProps']));
 
     if (!result.isValid) {
       this.showErrors(result.errors);
       return;
     }
 
-    const {
-      updateUser,
-      addSuccessMessage,
-    } = this.props;
+    const { updateUser, addSuccessMessage } = this.props;
 
     try {
       await updateUser('current', _omit(this.state, 'errors'));
@@ -133,29 +114,17 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
     return errors[field] || [];
   }
 
-  updateUserAsync: AsyncFnType;
-
   render(): React$Node {
-    const {
-      firstName,
-      lastName,
-      email,
-    } = this.state;
+    const { firstName, lastName, email } = this.state;
 
     return (
       <div className={styles.profile}>
         <div className={styles.profileHeader}>
-          <span className={styles.headerTitle}>
-            {'Edit Profile'}
-          </span>
-          <span className={styles.headerDescription}>
-            {'Complete your profile'}
-          </span>
+          <span className={styles.headerTitle}>Edit Profile</span>
+          <span className={styles.headerDescription}>Complete your profile</span>
         </div>
         <Form className={styles.form}>
-          <span className={styles.inputTitle}>
-            {'First name'}
-          </span>
+          <span className={styles.inputTitle}>First name</span>
 
           <Input
             errors={this.error('firstName')}
@@ -164,33 +133,14 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
             onBlur={this.validateField('firstName')}
           />
 
-          <span className={styles.inputTitle}>
-            {'Last name'}
-          </span>
+          <span className={styles.inputTitle}>Last name</span>
 
-          <Input
-            errors={this.error('lastName')}
-            value={lastName}
-            onChange={this.onFieldChange('lastName')}
-            onBlur={this.validateField('lastName')}
-          />
-          <span className={styles.inputTitle}>
-            {'Email'}
-          </span>
+          <Input errors={this.error('lastName')} value={lastName} onChange={this.onFieldChange('lastName')} onBlur={this.validateField('lastName')} />
+          <span className={styles.inputTitle}>Email</span>
 
-          <Input
-            errors={this.error('email')}
-            value={email}
-            onChange={this.onFieldChange('email')}
-            onBlur={this.validateField('email')}
-          />
+          <Input errors={this.error('email')} value={email} onChange={this.onFieldChange('email')} onBlur={this.validateField('email')} />
           <div className={styles.buttonWrap}>
-            <Button
-              className={styles.button}
-              onClick={this.updateUserAsync}
-              tabIndex={0}
-              color={buttonColors.purple}
-            >
+            <Button className={styles.button} onClick={this.updateUserAsync} tabIndex={0} color={buttonColors.purple}>
               {'Save'}
             </Button>
           </div>

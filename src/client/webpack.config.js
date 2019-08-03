@@ -34,16 +34,17 @@ const createUniqueIdGenerator = () => {
 const uniqueIdGenerator = createUniqueIdGenerator();
 
 const getComponentName = (resourcePath, separator) => {
-  return resourcePath.split(separator).slice(-5, -1).join(separator);
+  return resourcePath
+    .split(separator)
+    .slice(-5, -1)
+    .join(separator);
 };
 
 const generateScopedName = (localName, resourcePath) => {
   const componentUnixName = getComponentName(resourcePath, '/');
   const componentWindowsName = getComponentName(resourcePath, '\\');
 
-  const componentName = componentUnixName > componentWindowsName
-    ? componentUnixName
-    : componentWindowsName;
+  const componentName = componentUnixName > componentWindowsName ? componentUnixName : componentWindowsName;
 
   return `${uniqueIdGenerator(componentName)}_${uniqueIdGenerator(localName)}`;
 };
@@ -52,11 +53,7 @@ module.exports = {
   mode: 'production',
 
   entry: {
-    main: [
-      'core-js/stable',
-      'regenerator-runtime/runtime',
-      './index.jsx',
-    ],
+    main: ['core-js/stable', 'regenerator-runtime/runtime', './index.jsx'],
   },
 
   output: {

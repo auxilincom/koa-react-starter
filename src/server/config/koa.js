@@ -18,15 +18,17 @@ handlebars.registerHelper('json', context => JSON.stringify(context));
 
 module.exports = async (app) => {
   app.use(requestLogger());
-  app.use(views(config.isDev ? pathToViews : pathToStatic, {
-    default: 'html',
-    map: { html: 'handlebars' },
-    options: {
-      helpers: {
-        json: ctx => JSON.stringify(ctx),
+  app.use(
+    views(config.isDev ? pathToViews : pathToStatic, {
+      default: 'html',
+      map: { html: 'handlebars' },
+      options: {
+        helpers: {
+          json: ctx => JSON.stringify(ctx),
+        },
       },
-    },
-  }));
+    }),
+  );
 
   if (config.isDev) {
     const middleware = await hmr();
