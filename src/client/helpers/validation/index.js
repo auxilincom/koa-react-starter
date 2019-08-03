@@ -1,12 +1,17 @@
 // @flow
 
 import { reach } from 'yup';
-import type { ValidateOptions, ValidationError, Schema } from 'yup';
+import type { ValidateOptions } from 'yup';
+import { ObjectSchema } from 'yup/lib/object';
+import ValidationError from 'yup/lib/ValidationError';
 
 import _get from 'lodash/get';
 import _set from 'lodash/set';
 
-import type { ValidationResultType, ValidationErrorsType } from './types';
+import type {
+  ValidationResultType,
+  ValidationErrorsType,
+} from './types';
 
 const yupOptions: ValidateOptions = {
   abortEarly: false,
@@ -40,9 +45,13 @@ const parseErrors = (error?: ValidationError, defaultPath: string = ''): Validat
  * @param {object} schema
  * @return {object}
  */
-export const validate = async (obj: Object, schema: Schema): Promise<ValidationResultType> => {
+// eslint-disable-next-line
+export const validate = async function<T>(
+  obj: T,
+  schema: ObjectSchema<T>,
+): Promise<ValidationResultType> {
   try {
-    const value: Object = await schema.validate(obj, yupOptions);
+    const value: T = await schema.validate(obj, yupOptions);
     return {
       errors: {},
       value,
@@ -63,11 +72,16 @@ export const validate = async (obj: Object, schema: Schema): Promise<ValidationR
  * @param {object} schema
  * @return {object}
  */
-export const validateField = async (obj: Object, field: string, schema: Schema): Promise<ValidationResultType> => {
-  const newSchema: Schema = reach(schema, field);
+// eslint-disable-next-line
+export const validateField = async function<T>(
+  obj: T,
+  field: string,
+  schema: ObjectSchema<T>,
+): Promise<ValidationResultType> {
+  const newSchema: ObjectSchema<T> = reach(schema, field);
 
   try {
-    const value: Object = await newSchema.validate(_get(obj, field), yupOptions);
+    const value: T = await newSchema.validate(_get(obj, field), yupOptions);
     return {
       errors: {},
       value,

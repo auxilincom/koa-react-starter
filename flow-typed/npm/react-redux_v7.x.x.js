@@ -1,5 +1,5 @@
-// flow-typed signature: c3a4cd78457c0d98906872ff0a2f1308
-// flow-typed version: 3a6d556e4b/react-redux_v5.x.x/flow_>=v0.89.x
+// flow-typed signature: b383153ff117bf30b620bae90b126b1a
+// flow-typed version: ffb00c2f5c/react-redux_v7.x.x/flow_>=v0.89.x
 
 /**
 The order of type arguments for connect() is as follows:
@@ -27,6 +27,7 @@ Decrypting the abbreviations:
   RMP = Returned merge props
   CP = Props for returned component
   Com = React Component
+  SS = Selected state
   ST = Static properties of Com
   EFO = Extra factory options (used only in connectAdvanced)
 */
@@ -38,7 +39,7 @@ declare module "react-redux" {
 
   declare export type Options<S, OP, SP, MP> = {|
     pure?: boolean,
-    withRef?: boolean,
+    forwardRef?: boolean,
     areStatesEqual?: (next: S, prev: S) => boolean,
     areOwnPropsEqual?: (next: OP, prev: OP) => boolean,
     areStatePropsEqual?: (next: SP, prev: SP) => boolean,
@@ -199,6 +200,19 @@ declare module "react-redux" {
   ): Connector<P, OP, P>;
 
   // ------------------------------------------------------------
+  // Typings for Hooks
+  // ------------------------------------------------------------
+
+  declare export function useDispatch<D>(): D;
+
+  declare export function useSelector<S, SS>(
+    selector: (state: S) => SS,
+    equalityFn?: (a: SS, b: SS) => boolean,
+  ): SS;
+
+  declare export function useStore<Store>(): Store;
+
+  // ------------------------------------------------------------
   // Typings for Provider
   // ------------------------------------------------------------
 
@@ -222,7 +236,7 @@ declare module "react-redux" {
     renderCountProp?: string,
     shouldHandleStateChanges?: boolean,
     storeKey?: string,
-    withRef?: boolean,
+    forwardRef?: boolean,
   };
 
   declare type SelectorFactoryOptions<Com> = {
@@ -231,7 +245,7 @@ declare module "react-redux" {
     renderCountProp: ?string,
     shouldHandleStateChanges: boolean,
     storeKey: string,
-    withRef: boolean,
+    forwardRef: boolean,
     displayName: string,
     wrappedComponentName: string,
     WrappedComponent: Com,
@@ -272,5 +286,8 @@ declare module "react-redux" {
     createProvider: typeof createProvider,
     connect: typeof connect,
     connectAdvanced: typeof connectAdvanced,
+    useDispatch: typeof useDispatch,
+    useSelector: typeof useSelector,
+    useStore: typeof useStore,
   };
 }

@@ -1,13 +1,5 @@
 version: '3.6'  
 services:
-  redis:
-    image: redis:5.0.0
-    networks:
-      - auxilin
-    command: ["redis-server", "--appendonly", "yes"]
-    hostname: redis
-    ports:
-      - "6379:6379" # map port to none standard port, to avoid conflicts with locally installed redis.
   web:
     build:
       context: "./"

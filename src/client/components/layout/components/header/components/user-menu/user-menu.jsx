@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 
 import type { LocationShape } from 'react-router-dom';
-
 import { Link } from 'react-router-dom';
 
 import {
@@ -15,8 +14,10 @@ import { MdPerson } from 'react-icons/md';
 import {
   profilePath,
   changePasswordPath,
-  logoutPath,
 } from 'components/layout/layout.paths';
+
+import type { AxiosLogoutResponseType } from 'resources/account/account.types';
+import { logout } from 'resources/account/account.api';
 
 import styles from './user-menu.styles.pcss';
 
@@ -26,9 +27,15 @@ type StateType = {
 
 type LinkType = {
   label: string,
-  to: LocationShape,
-  routerLink: boolean,
+  to?: LocationShape,
+  onClick?: () => Promise<void>,
+  onKeyDown?: (e: SyntheticKeyboardEvent<HTMLDivElement>) => void,
 };
+
+async function onLogoutClick() {
+  const response: AxiosLogoutResponseType = await logout();
+  window.location.href = response.data.redirectUrl;
+}
 
 const linksList: Array<LinkType> = [
   {
@@ -43,8 +50,12 @@ const linksList: Array<LinkType> = [
   },
   {
     label: 'Log Out',
-    to: logoutPath(),
-    routerLink: false,
+    onClick: onLogoutClick,
+    onKeyDown: (e: SyntheticKeyboardEvent<HTMLDivElement>) => {
+      if (e.keyCode === 13) {
+        onLogoutClick();
+      }
+    },
   },
 ];
 
@@ -59,16 +70,22 @@ class UserMenu extends Component<*, StateType> {
         </>
       );
 
-      const linkEl: React$Node = link.routerLink
+      const linkEl: React$Node = link.to
         ? (
           <Link to={link.to} className={styles.link}>
             {linkContent}
           </Link>
         )
         : (
-          <a href={link.to.pathname} className={styles.link}>
+          <div
+            onClick={link.onClick}
+            onKeyDown={link.onKeyDown}
+            className={styles.link}
+            role="button"
+            tabIndex="0"
+          >
             {linkContent}
-          </a>
+          </div>
         );
 
       return (
@@ -81,7 +98,9 @@ class UserMenu extends Component<*, StateType> {
 
   state = {
     menuOpen: false,
-  };
+  }
+
+  menu: ?HTMLSpanElement;
 
   componentDidMount() {
     document.addEventListener('click', this.onDocumentClick);
@@ -109,8 +128,6 @@ class UserMenu extends Component<*, StateType> {
       this.closeMenu();
     }
   };
-
-  menu: ?HTMLSpanElement;
 
   closeMenu() {
     this.setState({ menuOpen: false });

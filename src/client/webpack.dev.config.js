@@ -6,7 +6,8 @@ module.exports = {
 
   entry: {
     main: [
-      '@babel/polyfill',
+      'core-js/stable',
+      'regenerator-runtime/runtime',
       './index.jsx',
     ],
   },
@@ -33,13 +34,36 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
               importLoaders: 1,
-              camelCase: true,
-              localIdentName: '[local]_[hash:base64:5]',
+              localsConvention: 'dashesOnly',
+              modules: {
+                localIdentName: '[local]__[hash:base64:5]',
+              },
             },
           },
           { loader: 'postcss-loader' },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: 'react-svg-loader',
+            options: {
+              jsx: true, // true outputs JSX tags
+              svgo: {
+                plugins: [
+                  {
+                    removeViewBox: false,
+                    cleanupIDs: false,
+                  },
+                ],
+              },
+            },
+          },
         ],
       },
     ],
