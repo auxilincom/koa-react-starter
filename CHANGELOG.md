@@ -1,3 +1,8 @@
+## v0.6.0 (2019-08-03)
+
+* Update dependencies
+* Use access and refresh token pair for security
+
 ## v0.5.0 (2019-04-25)
 
 * Change usage of react-hot-loader
