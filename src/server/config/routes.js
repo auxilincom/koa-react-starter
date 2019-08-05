@@ -30,6 +30,7 @@ indexRouter.get(/^((?!\.).)*$/, async (ctx) => {
     isDev: config.isDev,
     config: {
       apiUrl: config.apiUrl,
+      signinUrl,
     },
     user: {},
   };

@@ -86,6 +86,12 @@ const tryUpdateToken = async (): Promise<*> => {
   }
 };
 
+const redirectToLogin = () => {
+  if (window.config.signinUrl) {
+    window.location.href = window.config.signinUrl;
+  }
+};
+
 // eslint-disable-next-line
 const handleResponse = function<R>(response: $AxiosXHR<R>, skipUnauthorized: boolean): $AxiosXHR<R> {
   if (!response) {
@@ -105,7 +111,7 @@ const handleResponse = function<R>(response: $AxiosXHR<R>, skipUnauthorized: boo
       return response;
     }
 
-    // ToDo: redirect to login screen
+    redirectToLogin();
   }
 
   const errorData: ApiErrorDataType = {
@@ -152,6 +158,8 @@ const httpRequest = (method: string): AxiosFnType => async function<Req, Res> (u
     if (isOkStatus(tokenResponse.status)) {
       response = await api(options);
       response = handleResponse(response, false);
+    } else {
+      redirectToLogin();
     }
   }
 
